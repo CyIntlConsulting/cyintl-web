@@ -6,7 +6,7 @@ content:
   text: "We collect what's available, source what is possible and redefine what's next."
 
   buttonPrimary:
-    label: "Solutions"
+    label: "Find solutions"
     url: "/solutions"
 
   buttonSecondary:

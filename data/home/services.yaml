@@ -1,9 +1,9 @@
 enabled: true
 id: "services"
+title: "Who we can help"
+text: "We cater to a wide range of customer groups and develop specific solutions based on your needs and long-term goals."
 
 content:
-  title: "Who we can help"
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec quam nibh elit pellentesque velit netus suspendisse. Sed enim, pretium, montes, in ut dolor urna."
   cards:
     - image: "images/services-web-development.png"
       title: "Individuals"

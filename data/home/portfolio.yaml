@@ -1,7 +1,7 @@
 enabled: true
 id: "portfolio"
-title: "What we are specialized in"
-text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec quam nibh elit pellentesque velit netus suspendisse. Sed enim, pretium, montes, in ut dolor urna."
+title: "Our specializations"
+text: "We provide high-quality consulting services in the following areas, and are committed to integrating different resources to help you find an optimal solution."
 
 content:
   - image: "images/portfolio-ecommerce.png"
