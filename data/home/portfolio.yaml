@@ -1,9 +1,11 @@
 enabled: true
 id: "portfolio"
+title: "What we are specialized in"
+text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec quam nibh elit pellentesque velit netus suspendisse. Sed enim, pretium, montes, in ut dolor urna."
 
 content:
   - image: "images/portfolio-ecommerce.png"
-    pretitle: "Portfolio Service"
+    pretitle: "Education"
     title: "We developed an eCommerce website"
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
 
@@ -15,7 +17,7 @@ content:
         url: "#"
 
   - image: "images/portfolio-ecommerce.png"
-    pretitle: "Portfolio Service"
+    pretitle: "Technology"
     title: "We developed an eCommerce website"
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
 
@@ -27,7 +29,7 @@ content:
         url: "#"
 
   - image: "images/portfolio-ecommerce.png"
-    pretitle: "Portfolio Service"
+    pretitle: "Business"
     title: "We developed an eCommerce website"
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
 

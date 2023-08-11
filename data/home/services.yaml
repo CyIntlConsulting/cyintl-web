@@ -2,25 +2,25 @@ enabled: true
 id: "services"
 
 content:
-  title: "Our main services"
+  title: "Who we can help"
   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec quam nibh elit pellentesque velit netus suspendisse. Sed enim, pretium, montes, in ut dolor urna."
   cards:
     - image: "images/services-web-development.png"
-      title: "Web development"
+      title: "Individuals"
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
       button:
         label: "Learn more"
         url: "#"
 
     - image: "images/services-web-development.png"
-      title: "Web development"
+      title: "Organizations"
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
       button:
         label: "Learn more"
         url: "#"
 
     - image: "images/services-web-development.png"
-      title: "Web development"
+      title: "Mix and Match"
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
       button:
         label: "Learn more"
