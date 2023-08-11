@@ -64,7 +64,7 @@ menus:
 
   buttons:
     - name: "Book an appointment"
-      url: "/#"
+      url: "https://calendly.com/cyintl"
       weight: 5
       pre: "btn btn-primary text-light"
 
