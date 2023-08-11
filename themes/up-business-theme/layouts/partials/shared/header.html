@@ -15,6 +15,9 @@
           </li>
         {{ end }}
       </ul>
+      <ul class="navbar-nav mb-2 mb-xl-0">
+        {{ partial "langnav.html" . }}
+      </ul>
       <ul class="navbar-nav ms-xl-3 mb-2 mb-xl-0">
         {{ range .Site.Menus.buttons }}
           <li class="nav-item">

@@ -1,6 +1,6 @@
 baseURL: "https://www.cyintl.org/"
 theme: "up-business-theme"
-languageCode: "en-us"
+defaultContentLanguage: "en-us"
 
 title: "CyIntl Consulting"
 
@@ -11,6 +11,27 @@ summaryLength: 20
 params:
   title: "CyIntl Consulting"
   description: "We collect what's available, source what is possible and redefine what's next."
+  
+  languages:
+    en:
+      contentDir: content/en
+      languageName: English
+      disabled: false
+      languageCode: en-US
+      weight: 1
+    fr:
+      contentDir: content/fr
+      languageName: Français
+      disabled: true
+      languageCode: fr
+      weight: 2
+    es:
+      contentDir: content/zh
+      languageName: 中文
+      disabled: true
+      languageCode: zh-CN
+      weight: 3
+
   images: 
     - "images/hero-image.png"
 
