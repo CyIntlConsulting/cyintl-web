@@ -10,7 +10,7 @@ summaryLength: 20
 
 params:
   title: "CyIntl Consulting"
-  description: "We specialize in providing services to desing websites, applications, build and maintain business for customers."
+  description: "We collect what's available, source what is possible and redefine what's next."
   images: 
     - "images/hero-image.png"
 

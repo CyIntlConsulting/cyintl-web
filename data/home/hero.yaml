@@ -6,8 +6,8 @@ content:
   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est faucibus tellus leo non pellentesque lorem vel. Arcu magna eros, potenti duis."
 
   buttonPrimary:
-    label: "How we work"
-    url: "#"
+    label: "Solutions"
+    url: "/solutions"
 
   buttonSecondary:
     label: "Let's talk"
