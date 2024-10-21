@@ -19,18 +19,18 @@ params:
       disabled: false
       languageCode: en-US
       weight: 1
-    fr:
-      contentDir: content/fr
-      languageName: Français
-      disabled: true
-      languageCode: fr
-      weight: 2
-    es:
-      contentDir: content/zh
-      languageName: 中文
-      disabled: true
-      languageCode: zh-CN
-      weight: 3
+    # fr:
+    #   contentDir: content/fr
+    #   languageName: Français
+    #   disabled: true
+    #   languageCode: fr
+    #   weight: 2
+    # es:
+    #   contentDir: content/zh
+    #   languageName: 中文
+    #   disabled: true
+    #   languageCode: zh-CN
+    #   weight: 3
 
   images: 
     - "images/hero-image.png"
