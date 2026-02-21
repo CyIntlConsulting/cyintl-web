@@ -1,8 +1,9 @@
 .navbar {
   .navbar-brand {
     img {
+      margin-right: calc(0.3rem + 0.1vw);
       width: auto;
-      max-height: calc(1.4rem + .6vw);
+      max-height: calc(1.4rem + 0.6vw);
     }
   }
 }
