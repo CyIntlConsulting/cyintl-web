@@ -1,5 +1,5 @@
 +++
-title = "About"
+title = "关于我们"
 description = ""
 aliases = ["about-us", "about-hugo", "contact"]
 author = "Cleo"
