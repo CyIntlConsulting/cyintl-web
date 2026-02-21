@@ -78,16 +78,16 @@ params:
   social:
     linkedin: "https://www.linkedin.com/company/cyintl-consulting/"
     instagram: "https://instagram.com/cyintlconsulting?igshid=OGQ5ZDc2ODk2ZA=="
-    facebook: "https://www.facebook.com/profile.php?viewas=100000686899395&id=100088426451339"
     wechat: "CyIntlConsulting"
 
   location:
     - "Vancouver, BC V6B 0B1, Canada"
+    - "Redmond, WA 98052, USA"
     - "Zhengzhou, Henan 450000, China"
 
   contact:
     - "admin@cyintl.org"
-    # VoIP.ms number integration here
+    - "+1 206-601-0517"
 
   copyright: "© 2026 CyIntl Consulting Corp. All Rights Reserved."
 
