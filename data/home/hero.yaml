@@ -2,7 +2,7 @@ enabled: true
 id: "hero"
 
 content:
-  title: "How to **level up** your business"
+  title: "Integrate, and **redefine**"
   text: "We collect what's available, source what is possible and redefine what's next."
 
   buttonPrimary:

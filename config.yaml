@@ -1,37 +1,70 @@
 baseURL: "https://www.cyintl.org/"
 theme: "up-business-theme"
-defaultContentLanguage: "en-us"
+defaultContentLanguage: "en" # Simplified to 'en' to match the language key
+defaultContentLanguageInSubdir: true # Essential for clear /en/ and /zh/ routing
 
 title: "CyIntl Consulting"
-
-# googleAnalytics: ""
-
 summaryLength: 20
 
+# 1. ROOT LEVEL LANGUAGES (Moved out of params)
+languages:
+  en:
+    contentDir: content/en
+    languageName: English
+    languageCode: en-US
+    weight: 1
+    title: "CyIntl Consulting"
+    # English Menus
+    menu:
+      main:
+        - name: "Home"
+          url: "/"
+          weight: 1
+        - name: "Solutions"
+          url: "/en/solutions"
+          weight: 2
+        - name: "Our team"
+          url: "/en/team"
+          weight: 3
+        - name: "About"
+          url: "/en/about"
+          weight: 4
+      buttons:
+        - name: "Book an appointment"
+          url: "https://calendly.com/cyintl"
+          weight: 5
+          pre: "btn btn-primary text-light"
+
+  zh:
+    contentDir: content/zh
+    languageName: "中文"
+    languageCode: zh-CN
+    weight: 2
+    title: "斯爱国际咨询"
+    # Chinese Menus
+    menu:
+      main:
+        - name: "首页"
+          url: "/zh"
+          weight: 1
+        - name: "解决方案"
+          url: "/zh/solutions"
+          weight: 2
+        - name: "团队"
+          url: "/zh/team"
+          weight: 3
+        - name: "关于我们"
+          url: "/zh/about"
+          weight: 4
+      buttons:
+        - name: "预约咨询"
+          url: "https://calendly.com/cyintl"
+          weight: 5
+          pre: "btn btn-primary text-light"
+
 params:
-  title: "CyIntl Consulting"
   description: "We collect what's available, source what is possible and redefine what's next."
   
-  languages:
-    en:
-      contentDir: content/en
-      languageName: English
-      disabled: false
-      languageCode: en-US
-      weight: 1
-    # fr:
-    #   contentDir: content/fr
-    #   languageName: Français
-    #   disabled: true
-    #   languageCode: fr
-    #   weight: 2
-    # es:
-    #   contentDir: content/zh
-    #   languageName: 中文
-    #   disabled: true
-    #   languageCode: zh-CN
-    #   weight: 3
-
   images: 
     - "images/hero-image.png"
 
@@ -54,53 +87,11 @@ params:
 
   contact:
     - "admin@cyintl.org"
-    # - "new italkbb number"
+    # VoIP.ms number integration here
 
-  copyright: "© 2023 CyIntl Conculting Corp. All Rights Reserved."
+  copyright: "© 2026 CyIntl Consulting Corp. All Rights Reserved."
 
   postProcess: false
-
-menus:
-  main:
-    - name: "Home"
-      url: "/"
-      weight: 1
-
-    - name: "Solutions"
-      url: "/solutions"
-      weight: 2
-
-    - name: "Our team"
-      url: "/team"
-      weight: 3
-
-    - name: "About"
-      url: "/about"
-      weight: 4
-
-
-  buttons:
-    - name: "Book an appointment"
-      url: "https://calendly.com/cyintl"
-      weight: 5
-      pre: "btn btn-primary text-light"
-
-  footer:
-    - name: "Home"
-      url: "/"
-      weight: 1
-
-    - name: "Solutions"
-      url: "/solutions"
-      weight: 2
-
-    - name: "Our team"
-      url: "/team"
-      weight: 3
-
-    - name: "About"
-      url: "/about"
-      weight: 4
 
 taxonomies:
   series: "series"

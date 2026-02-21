@@ -1,5 +1,10 @@
-<li class="nav__list-item">
-  <div class="optionswitch">
-    <input class="optionswitch__picker" type="checkbox" id="languagepicker" hidden="">
-  </div>
-</li>
+{{ if .IsTranslated }}
+  {{ range .AllTranslations }}
+    <li class="nav-item">
+      <a class="nav-link px-2 {{ if eq $.Language.Lang .Language.Lang }}active fw-bold text-decoration-underline{{ else }}text-primary{{ end }}" 
+         href="{{ .Permalink }}">
+        {{ if eq .Language.Lang "zh" }}中文{{ else }}EN{{ end }}
+      </a>
+    </li>
+  {{ end }}
+{{ end }}
