@@ -21,7 +21,7 @@ content:
 
     - image: "images/services-web-development.png"
       title: "Mix and Match"
-      text: "We provide agile solutions that bridge the gap between individual and institutional scale. Whether you’re an organization or an individual customer, we help you synchronize diverse resources for maximum impact."
+      text: "We provide agile solutions that bridge the gap between individual and institutional scale, navigating the complexity and aiming for maximum impact."
       button:
         label: "Learn more"
         url: "#"

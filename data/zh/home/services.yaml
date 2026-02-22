@@ -21,7 +21,7 @@ content:
 
     - image: "images/services-web-development.png"
       title: "组合类型"
-      text: "我们提供敏捷解决方案，弥合不同客户群体之间的需求差异。无论您是组织还是个人，我们都能助您整合多元资源，实现利益最大化。"
+      text: "无论您是组织还是个人，我们都能助您综合评估并整合多元资源，实现利益最大化。"
       button:
         label: "了解更多"
         url: "#"

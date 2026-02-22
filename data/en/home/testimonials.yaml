@@ -1,9 +1,9 @@
 enabled: true
 id: "testimonials"
+title: "Testimonials"
+text: "Due to non-disclosure agreements, the details of the following outcomes have been deliberately obscured."
 
 content:
-  title: "Testimonials"
-
   featured:
     image: "images/testimonials-awards.png"
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur et pretium nunc, quis euismod et. Volutpat suspendisse sed in blandit condimentum. Sagittis nullam nec mauris, feugiat hendrerit aliquam cras. Dolor tortor gravida lobortis in ultricies enim vulputate non. Neque nibh donec quam lectus."

@@ -1,9 +1,9 @@
 enabled: true
-id: "testimonials"
+id: "成果展示"
+title: "成果展示"
+text: "由于保密协议的限制，以下成果的具体细节已被模糊化处理。"
 
 content:
-  title: "Testimonials"
-
   featured:
     image: "images/testimonials-awards.png"
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur et pretium nunc, quis euismod et. Volutpat suspendisse sed in blandit condimentum. Sagittis nullam nec mauris, feugiat hendrerit aliquam cras. Dolor tortor gravida lobortis in ultricies enim vulputate non. Neque nibh donec quam lectus."

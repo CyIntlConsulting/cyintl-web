@@ -4,7 +4,7 @@ title: "Our specializations"
 text: "Ask right questions and provide the solutions"
 
 content:
-  - image: "images/portfolio-ecommerce.png"
+  - image: "images/service-business.png"
     pretitle: "Business"
     title: "We develop business strategies"
     text: "We help business owners bridge the gap between high-level vision and operational reality. By combining market analysis with actionable roadmaps, we ensure your organization is positioned for sustainable growth and long-term competitive advantage."
@@ -16,7 +16,7 @@ content:
       - label: "Read more"
         url: "#"
 
-  - image: "images/portfolio-ecommerce.png"
+  - image: "images/service-education.png"
     pretitle: "Education"
     title: "We guide your academic journey"
     text: "We provide comprehensive school selection and enrollment guidance for all levels from junior high school and above. We design and deliver practical roadmaps to our clients, addressing their immigration preferences, life quality, and personal pursuits."
@@ -28,7 +28,7 @@ content:
       - label: "Read more"
         url: "#"
 
-  - image: "images/portfolio-ecommerce.png"
+  - image: "images/service-technology.png"
     pretitle: "Technology"
     title: "We provide software solutions"
     text: "We provide a full spectrum of software solutions - from macro-level design and full-stack development to professional recruitment and training - empowering our clients to achieve the digital transformation of their products or services."
@@ -40,7 +40,7 @@ content:
       - label: "Read more"
         url: "#"
 
-  - image: "images/portfolio-ecommerce.png"
+  - image: "images/service-marketing.png"
     pretitle: "Maketing"
     title: "Precision Marketing & Digital Growth"
     text: "We treat marketing as a high-performance engine, where creative strategy meets technical execution. By thinking in software and acting through data, we move beyond ‘brand awareness’ to build scalable acquisition systems that drive measurable ROI."
