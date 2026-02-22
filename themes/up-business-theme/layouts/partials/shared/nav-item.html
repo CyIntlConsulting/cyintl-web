@@ -1,0 +1,22 @@
+
+{{ $item := .item }}
+{{ $page := .page }}
+
+{{ if $item.HasChildren }}
+  <li class="nav-item dropdown text-center">
+    <!-- <a class="nav-link dropdown-toggle text-primary px-4" href="#" id="navbarDropdown{{ $item.Identifier }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      {{ $item.Name }}
+    </a> -->
+    <ul class="dropdown-menu border-0 shadow-sm" aria-labelledby="navbarDropdown{{ $item.Identifier }}">
+      {{ range $item.Children }}
+        <li>
+          <a class="dropdown-item" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+        </li>
+      {{ end }}
+    </ul>
+  </li>
+{{ else }}
+  <li class="nav-item text-center">
+    <a class="nav-link text-primary px-4" href="{{ $item.URL | relLangURL }}">{{ $item.Name }}</a>
+  </li>
+{{ end }}
