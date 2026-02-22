@@ -1,0 +1,15 @@
+enabled: true
+id: "hero"
+
+content:
+  title: "Integrate, and **redefine**"
+  text: "我们收集现有资源，发掘可行方案，重新定义未来方向。"
+
+  buttonPrimary:
+    label: "寻求解决方案"
+    url: "/zh/solutions"
+
+  buttonSecondary:
+    label: "联系我们"
+    url: "https://calendly.com/cyintl"
+

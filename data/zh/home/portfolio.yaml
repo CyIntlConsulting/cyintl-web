@@ -1,0 +1,53 @@
+enabled: true
+id: "portfolio"
+title: "我们的专长"
+text: "提出对的问题, 提供解决方案"
+
+content:
+  - image: "images/portfolio-ecommerce.png"
+    pretitle: "商业"
+    title: "我们制定商业战略"
+    text: "我们助力企业主弥合企业发展愿景与实际运营之间的差距。通过将市场分析与可执行方案的结合，我们为您的组织实现可持续增长保驾护航。"
+
+    buttons: 
+      - label: "See live"
+        url: "#"
+
+      - label: "Read more"
+        url: "#"
+
+  - image: "images/portfolio-ecommerce.png"
+    pretitle: "教育"
+    title: "我们为您的学术旅程提供指导"
+    text: "我们为初中及以上各阶段学生提供全面的学校选择与入学指导。我们为客户量身定制切实可行的规划方案，兼顾其移民偏好、生活品质与个人追求。"
+
+    buttons: 
+      - label: "See live"
+        url: "#"
+
+      - label: "Read more"
+        url: "#"
+
+  - image: "images/portfolio-ecommerce.png"
+    pretitle: "科技"
+    title: "我们提供软件解决方案"
+    text: "我们提供全方位的软件解决方案——从宏观架构设计及全栈开发，到相关专业人才的招聘与培训——我们助力客户实现其产品或服务的数字化转型。"
+
+    buttons: 
+      - label: "See live"
+        url: "#"
+
+      - label: "Read more"
+        url: "#"
+
+  - image: "images/portfolio-ecommerce.png"
+    pretitle: "市场营销"
+    title: "数据导向的精准营销"
+    text: "我们将营销视为高性能商业引擎，并将创意策略与技术执行在这里交互以实现可观成果。我们以软件思维为导向，通过数据驱动行为，突破“品牌认知”的局限，帮助进一步构建可扩展的获客体系，从而实现可量化的投资回报率。"
+
+    buttons: 
+      - label: "See live"
+        url: "#"
+
+      - label: "Read more"
+        url: "#"
