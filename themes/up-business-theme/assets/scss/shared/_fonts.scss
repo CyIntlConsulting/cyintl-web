@@ -1,17 +1,19 @@
 @font-face {
-  font-family: 'SF Pro Display';
-  src: url('{{ site.BaseURL }}/fonts/SF-Pro-Display-Regular.otf') format('opentype');
+  font-family: "Inter Display";
+  src: url("{{ site.BaseURL }}/fonts/InterDisplay-Regular.otf")
+    format("opentype");
   font-weight: normal;
 }
 
 @font-face {
-  font-family: 'SF Pro Display';
-  src: url('{{ site.BaseURL }}/fonts/SF-Pro-Display-Semibold.otf') format('opentype');
+  font-family: "Inter Display";
+  src: url("{{ site.BaseURL }}/fonts/InterDisplay-SemiBold.otf")
+    format("opentype");
   font-weight: 600;
 }
 
 @font-face {
-  font-family: 'SF Pro Display';
-  src: url('{{ site.BaseURL }}/fonts/SF-Pro-Display-Bold.otf') format('opentype');
+  font-family: "Inter Display";
+  src: url("{{ site.BaseURL }}/fonts/InterDisplay-Bold.otf") format("opentype");
   font-weight: bold;
 }
