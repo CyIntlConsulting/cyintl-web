@@ -1,5 +1,5 @@
 +++
-title = "我们的团队"
+title = "发展愿景"
 description = ""
 aliases = []
 author = "Cleo Zhang"

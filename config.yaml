@@ -26,13 +26,16 @@ languages:
         - name: "Our team"
           url: "/en/team"
           weight: 3
+        - name: "Vision"
+          url: "/en/vision"
+          weight: 4
         - name: "About"
           url: "/en/about"
-          weight: 4
+          weight: 5
       buttons:
         - name: "Book an appointment"
           url: "https://calendly.com/cyintl"
-          weight: 5
+          weight: 6
           pre: "btn btn-primary text-light"
 
   zh:
@@ -50,16 +53,19 @@ languages:
         - name: "解决方案"
           url: "/zh/solutions"
           weight: 2
-        - name: "团队"
+        - name: " 我们的团队"
           url: "/zh/team"
           weight: 3
+        - name: "发展愿景"
+          url: "/zh/vision"
+          weight: 4
         - name: "关于我们"
           url: "/zh/about"
-          weight: 4
+          weight: 5
       buttons:
         - name: "预约咨询"
           url: "https://calendly.com/cyintl"
-          weight: 5
+          weight: 6
           pre: "btn btn-primary text-light"
 
 params:
