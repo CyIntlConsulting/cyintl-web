@@ -6,15 +6,15 @@ text: "Due to non-disclosure agreements, the details of the following outcomes h
 content:
   featured:
     image: "images/testimonials-awards.png"
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur et pretium nunc, quis euismod et. Volutpat suspendisse sed in blandit condimentum. Sagittis nullam nec mauris, feugiat hendrerit aliquam cras. Dolor tortor gravida lobortis in ultricies enim vulputate non. Neque nibh donec quam lectus."
-    client: "Anonymous Customer"
+    text: "We have successfully deliver cooperative education programs with the University of Manchester, Manchester Metropolitan University, UNITEC Institute of Technology in New Zealand, and Keimyung University in South Korea. These projects have now been operating smoothly for [several decades], earning consistent praise from industry professionals both domestically and internationally."
+    client: "Education"
 
   list:
-    - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur et pretium nunc, quis euismod et. Volutpat suspendisse sed in blandit condimentum. Sagittis nullam nec mauris, feugiat hendrerit aliquam cras. Dolor tortor gravida lobortis in ultricies enim vulputate non. Neque nibh donec quam lectus."
-      client: "Anonymous Customer"
+    - text: "We assisted a Vancouver-based tech company in auditing their existing software development cycle and identified violations performed by their contractors, helping clients gather evidence throughout the legal process and recover all losses."
+      client: "Technology"
 
-    - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur et pretium nunc, quis euismod et. Volutpat suspendisse sed in blandit condimentum. Sagittis nullam nec mauris, feugiat hendrerit aliquam cras. Dolor tortor gravida lobortis in ultricies enim vulputate non. Neque nibh donec quam lectus."
-      client: "Anonymous Customer"
+    - text: "We assisted a restaurant chain in designing, implementing, and refining their food delivery SOPs. Within one week of rollout, we manage to triple the sales, and the sales records were repeatedly broke within three months."
+      client: "Business"
 
-    - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur et pretium nunc, quis euismod et. Volutpat suspendisse sed in blandit condimentum. Sagittis nullam nec mauris, feugiat hendrerit aliquam cras. Dolor tortor gravida lobortis in ultricies enim vulputate non. Neque nibh donec quam lectus."
-      client: "Anonymous Customer"
+    - text: "Based in Vancouver, we have organized hundreds of brand promotion events across Asia Pacific, helping business owners enhance brand awareness and significantly fostering mutual benefits for local brands."
+      client: "Marketing"

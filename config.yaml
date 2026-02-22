@@ -43,7 +43,7 @@ languages:
     languageName: "中文"
     languageCode: zh-CN
     weight: 2
-    title: "斯爱国际咨询"
+    title: "思因国际咨询"
     # Chinese Menus
     menu:
       main:
