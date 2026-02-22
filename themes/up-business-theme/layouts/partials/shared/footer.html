@@ -2,7 +2,9 @@
   <div class="container">
     <div class="row pb-3">
       <div class="col-12 col-xl-4 text-center text-xl-start pb-4">
-        <h4 class="fs-4 fw-semibold text-uppercase text-primary">{{ .Site.Title }}</h4>
+        <a a class="d-flex align-items-center justify-content-center justify-content-xl-start text-decoration-none mb-3" href="{{ .Site.BaseURL | relLangURL }}">
+          <img src="{{ "images/cyintl_logo.png" | absURL }}" alt="{{ .Site.Title }}" style="height: 80px; width: auto;" class="me-3">
+        </a>
         <p class="small text-black-61">{{ .Site.Params.description }}</p>
         {{ with .Site.Params.social }}
         <ul class="d-flex justify-content-center justify-content-xl-start list-unstyled">
