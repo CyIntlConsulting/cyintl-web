@@ -1,0 +1,10 @@
+{{ $path := printf "images/icons/%s.svg" .name }}
+{{ $icon := resources.Get $path }}
+
+{{ with $icon }}
+  <span class="svg-icon {{ $.class }}">
+    {{ .Content | safeHTML }}
+  </span>
+{{ else }}
+  <span class="text-danger small">Icon not found</span>
+{{ end }}

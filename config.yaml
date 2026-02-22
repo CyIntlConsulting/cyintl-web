@@ -59,7 +59,7 @@ languages:
         - name: "发展愿景"
           url: "/zh/vision"
           weight: 4
-        - name: "关于我们"
+        - name: "关于"
           url: "/zh/about"
           weight: 5
       buttons:
