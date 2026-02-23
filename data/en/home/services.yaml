@@ -5,21 +5,21 @@ text: "We cater to a wide range of customer groups and serve their long-term goa
 
 content:
   cards:
-    - image: "images/services-web-development.png"
+    - image: "images/icons/user-solid-full.svg"
       title: "Individuals"
       text: "We offer premium customized services for individual clients. Please contact us to discuss further and we will assess your situation basing on your needs."
       button:
         label: "Learn more"
         url: "#"
 
-    - image: "images/services-web-development.png"
+    - image: "images/icons/people-group-solid-full.svg"
       title: "Organizations"
       text: "We assist private or public institutions in integrating resources to develop new revenue streams, facilitate long-term collaborations with other organizations."
       button:
         label: "Learn more"
         url: "#"
 
-    - image: "images/services-web-development.png"
+    - image: "images/icons/sitemap-solid-full.svg"
       title: "Mix and Match"
       text: "We provide agile solutions that bridge the gap between individual and institutional scale, navigating the complexity and aiming for maximum impact."
       button:
