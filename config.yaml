@@ -23,12 +23,9 @@ languages:
         - name: "Solutions"
           url: "/en/solutions"
           weight: 2
-        - name: "Team"
+        - name: "Our Team"
           url: "/en/team"
           weight: 3
-        - name: "Vision"
-          url: "/en/vision"
-          weight: 4
         - name: "About"
           url: "/en/about"
           weight: 5
@@ -53,12 +50,9 @@ languages:
         - name: "解决方案"
           url: "/zh/solutions"
           weight: 2
-        - name: " 团队"
+        - name: "我们的团队"
           url: "/zh/team"
           weight: 3
-        - name: "发展愿景"
-          url: "/zh/vision"
-          weight: 4
         - name: "关于"
           url: "/zh/about"
           weight: 5
