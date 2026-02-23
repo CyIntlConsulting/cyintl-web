@@ -1,0 +1,46 @@
+enabled: true
+id: "team"
+title: "我们的团队"
+text: "我们专业的团队致力于协助您应对现代化转型与资源分配的挑战。"
+
+# data/persona.yaml
+members:
+  - name: "Cleo"
+    role: "创始人&技术倡导者"
+    bio: "Cleo拥有逾10年的软件开发经验，曾在FAANG+企业担任软件工程师，后创立CyIntl公司, 致力于提供更注重产品、以用户为导向的技术支持与咨询服务。"
+    image: "/images/team/cleo.jpg"
+    education:
+      - degree: "MSc.in Machine Learning"
+      - degree: "MSc.in Business Analytics"
+      - degree: "BASc.in Computer Engineering"
+
+  - name: "Sylvie"
+    role: "教育领域专家"
+    bio: "Sylvie拥有逾三十年中外合作办学经验，长期兼任国际事务处处长与国际教育项目主任，负责统筹与俄罗斯及日本高校的学术交流项目。"
+    image: "/images/team/cleo.jpg"
+    education:
+      - degree: "MSc.in Management"
+      - degree: "MSc. in Engineering Management"
+      - degree: "BASc.in Mechanical Engineering and Automation"
+
+  - name: "Mitchell"
+    role: "数据科学家"
+    bio: "Mitchell拥有10+年数据处理与分析经验，现任职于FAANG+公司的数据科学家。对他而言，数据不仅是工作，更是一种生活方式。他擅长将数据融入产品或服务，助力他人做出理性决策。"
+    image: "/images/team/cleo.jpg"
+    education:
+      - degree: "MSc. in High Performance Computing with Data Science"
+      - degree: "BASc. in Materials Engineering"
+
+  - name: "Catherine"
+    role: "市场营销专员"
+    bio: "Focused on resource integration in education and tech, driving modernization across the Pacific Rim."
+    image: "/images/team/cleo.jpg"
+    education:
+      - degree: "BA. in Economy"
+
+  - name: "Joshua"
+    role: "软件工程师"
+    bio: "Focused on resource integration in education and tech, driving modernization across the Pacific Rim."
+    image: "/images/team/cleo.jpg"
+    education:
+      - degree: "BASc. in Computer Engineering"

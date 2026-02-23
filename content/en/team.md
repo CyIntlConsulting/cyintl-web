@@ -1,6 +1,4 @@
-+++
-title = "Team"
-description = ""
-aliases = []
-author = "Cleo Zhang"
-+++
+---
+title: "Our Team"
+layout: "team"
+---
