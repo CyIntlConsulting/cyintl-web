@@ -80,6 +80,12 @@ params:
     instagram: "https://instagram.com/cyintlconsulting?igshid=OGQ5ZDc2ODk2ZA=="
     wechat: "CyIntlConsulting"
 
+  industries:
+    - Business
+    - Education
+    - Technology
+    - Maketing
+
   location:
     - "Vancouver, BC V6B 0B1, Canada"
     - "Redmond, WA 98052, USA"

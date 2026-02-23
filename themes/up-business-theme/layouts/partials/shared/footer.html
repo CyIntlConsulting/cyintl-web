@@ -16,14 +16,30 @@
         {{ end }}
       </div>
       <div class="col-12 col-xl-2 text-center text-xl-start pb-4">
-        <h5 class="fs-6 fw-semibold text-primary">About</h5>
-        <ul class="list-unstyled">
-          {{ range .Site.Menus.footer }}
-            <li class="">
-              <a class="small text-black-61 text-decoration-none" href="{{ .URL }}">{{ .Name }}</a>
-            </li>
-          {{ end }}
-        </ul>
+        <h5 class="fs-6 fw-semibold text-primary">Industries</h5>
+        {{ range .Site.Params.industries }}
+          <li class="d-flex justify-content-center justify-content-xl-start align-items-center mb-2">
+            <div class="d-flex align-items-center text-primary">
+              {{/* Check for both EN and ZH keywords to ensure the icon displays */}}
+              {{ if or (strings.Contains . "Business") (strings.Contains . "商业") }}
+                {{ partial "icons/business.html" . }}
+              {{ else if or (strings.Contains . "Education") (strings.Contains . "教育") }}
+                {{ partial "icons/education.html" . }}
+              {{ else if or (strings.Contains . "Technology") (strings.Contains . "科技") }}
+                {{ partial "icons/technology.html" . }}
+              {{ else }}
+                {{ partial "icons/arrow-right.html" . }}
+              {{ end }}
+            </div>
+            
+            {{/* 1. Use relLangURL so /zh/ links stay in /zh/ */}}
+            {{/* 2. Use urlize to turn "Education & Tech" into "education-tech" */}}
+            <a class="small text-black-61 text-decoration-none m-0 ps-2" 
+              href="{{ (printf "/solutions/%s" (. | urlize)) | relLangURL }}">
+              {{ . }}
+            </a>
+          </li>
+        {{ end }}
       </div>
       <div class="col-12 col-xl-3 text-center text-xl-start pb-4">
         <h5 class="fs-6 fw-semibold text-primary">Location</h5>
@@ -36,12 +52,23 @@
           {{ end }}
         </ul>
       </div>
-      <div class="col-12 col-xl-3 text-center text-xl-start pb-4">
-        <h5 class="fs-6 fw-semibold text-primary">Contact us</h5>
+    <div class="col-12 col-xl-3 text-center text-xl-start pb-4">
+      <h5 class="fs-6 fw-semibold text-primary">Contact us</h5>
+      <ul class="list-unstyled">
         {{ range .Site.Params.contact }}
-          <p class="small text-black-61 mb-1">{{ . }}</p>
+          <li class="d-flex justify-content-center justify-content-xl-start align-items-center mb-2">
+            <div class="d-flex align-items-center text-primary">
+              {{ if (strings.Contains . "@") }}
+                {{ partial "icons/envelope.html" . }}
+              {{ else }}
+                {{ partial "icons/phone.html" . }}
+              {{ end }}
+            </div>
+            <p class="small text-black-61 m-0 ps-2">{{ . }}</p>
+          </li>
         {{ end }}
-      </div>
+      </ul>
+    </div>
     </div>
     <div class="row">
       <div class="col-12">
