@@ -1,11 +1,13 @@
 +++
-title = "关于我们"
-description = ""
+title = "关于CyIntl"
+description = "CyIntl (Sigh-Intl) 是一家深耕教育、科技、商业与终端营销的综合性咨询平台，致力于全球资源整合与现代化转型。"
 aliases = ["about-us", "about-hugo", "contact"]
 author = "Cleo"
 +++
-CyIntl, pronounced as "sigh-intl," is a consultancy enterprise with a core focus on education, technology, and business evolution. Our approach involves gathering existing resources, seeking out attainable opportunities, and reshaping future possibilities.
+**CyIntl（发音为 "Sigh-Intl"）** 是一家深耕教育、科技、商业与终端营销的综合性咨询平台。我们相信**时间与复利**的力量，致力于为个人及机构整合核心资源、发掘潜在增长，并驱动产业的现代化转型，共同重塑未来蓝图。
 
-At CyIntl, we establish strong partnerships primarily within the education and technology sectors. We facilitate connections between resources from East Asia and North America. Our objective is to foster an interconnected environment that seamlessly integrates Business, Education, and Technology, contributing to the growth of individuals at large.
+立足北美，展望环太平洋地区，CyIntl 在全球范围内构建了稳固的战略合作伙伴关系。我们专注于**打破行业壁垒**，推动商业、教育与科技的无缝融合，助力客户实现长期可持续的繁荣与社会影响力的跨越式提升。
 
-Established in the year 2021 and headquartered in Vancouver, CyIntl grows with a promising trajectory ahead.
+我们的宏观愿景是**优化社会资源的配置效率**，助力实现“居者有其屋，能者有其位”的理想政治状态。我们将客户视为一同前行的伙伴.
+
+> **发展历程**：CyIntl 成立于 2021 年，总部位于加拿大温哥华。目前正以稳健的步伐，沿着充满前景的发展轨迹前进。
