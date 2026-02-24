@@ -1,10 +1,12 @@
-<section class="section hero py-5">
+<section class="section hero py-5 mb-5" 
+         style="background-image: url('{{ "images/hero-image.png" | relURL }}'); 
+                background-size: auto; 
+                background-repeat: no-repeat; 
+                background-position: center; 
+                min-height: 700px;">
   <div class="container">
-    <div class="row flex-column flex-xl-row-reverse">
-      <div class="col-12 col-xl-6  d-flex flex-column justify-content-center hero-image">
-        {{ partial "utilities/image-fluid" "images/hero-image.png" }}
-      </div>
-      <div class="col-12 col-xl-6 d-flex flex-column justify-content-center">
+    <div class="row">
+      <div class="col-12 col-xl-6 d-flex flex-column justify-content-center" style="min-height: 700px;">
         {{ with .content.title }}
           <h3 class="hero-title fw-bold display-1 text-primary text-center text-xl-start pb-4">{{ . | markdownify }}</h3>
         {{ end }}
@@ -20,6 +22,7 @@
           {{ end }}
         </div>
       </div>
+      <div class="col-xl-6 d-none d-xl-block"></div>
     </div>
   </div>
 </section>
