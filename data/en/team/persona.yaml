@@ -7,7 +7,7 @@ text: "Our team of dedicated professionals is here to help you navigate moderniz
 members:
   - name: "Cleo"
     role: "Founder & Tech Advocate"
-    bio: "Cleo has over a decade of software development experience, having worked as a software engineer at FAANG+ before founding CyIntl. Cleo is dedicated to providing more product-focused, user-oriented technical support and consulting services."
+    bio: "Cleo has over 10 years of software development experience, having served as a software engineer at FAANG+ companies where she drove the design, development, deployment, and vertical integration of multiple projects in online communication and Augmented Reality (AR) domains. She later founded CyIntl, dedicated to delivering more product-focused, user-centric technical support and consulting services."
     image: "/images/team/cleo.jpg"
     education:
       - degree: "MSc.in Machine Learning"
@@ -16,16 +16,16 @@ members:
 
   - name: "Sylvie"
     role: "Education Expert"
-    bio: "Sylvie possesses over 30 years of experience in China-foreign cooperative education initiatives. She has long served concurrently as Director of International Affairs and International Education Programs, overseeing academic exchange projects with universities in Russia and Japan."
+    bio: "Sylvie has served as Regional Director of International Education Programs for over 30 years. She has led and guided the establishment, operation, and evaluation of cooperative programs between Chinese institutions and prestigious universities in the UK, Canada, Australia, New Zealand, Ireland, Spain, South Korea, Malaysia, and so on. She has planned multilingual training and study abroad programs, possesses deep familiarity with relevant policies, and demonstrates strong capabilities in integrating international education resources."
     image: "/images/team/cleo.jpg"
     education:
-      - degree: "MSc.in Management"
-      - degree: "MSc. in Engineering Management"
-      - degree: "BASc.in Mechanical Engineering and Automation"
+      - degree: "MM. in Management"
+      - degree: "BASc. in Engineering Management"
+      - degree: "BASc. in Mechanical Engineering and Automation"
 
   - name: "Mitchell"
     role: "Data Scientist"
-    bio: "Mitchell has nearly 20 years of experience in data processing and analysis and currently works as a data scientist at FAANG+. For Mitchell, data is not just a job but a way of life. He excels at integrating data into products or services to help others make rational decisions."
+    bio: "Mitchell possesses over 10 years of experience in data processing and analysis. Currently serving as a data scientist at a FAANG+ company, he has participated in and led multiple industry-scale, frontline projects that have been successfully deployed. For him, data is not merely a job—it's a way of life. He excels at integrating data into products or services, empowering others to make rational decisions."
     image: "/images/team/cleo.jpg"
     education:
       - degree: "MSc. in High Performance Computing with Data Science"
@@ -33,14 +33,7 @@ members:
 
   - name: "Catherine"
     role: "Marketing Specialist"
-    bio: "Focused on resource integration in education and tech, driving modernization across the Pacific Rim."
+    bio: "Cathy specializes in brand growth and cross-cultural communication, actively serving the North American market. She oversees integrated marketing projects and Chinese-English social media ecosystems. By connecting brand positioning, content storytelling, and commercial conversion, she drives sustained growth through multi-platform strategic operations and campaign planning. "
     image: "/images/team/cleo.jpg"
     education:
       - degree: "BA. in Economy"
-
-  - name: "Joshua"
-    role: "Software Engineer"
-    bio: "Focused on resource integration in education and tech, driving modernization across the Pacific Rim."
-    image: "/images/team/cleo.jpg"
-    education:
-      - degree: "BASc. in Computer Engineering"
