@@ -23,12 +23,89 @@ languages:
         - name: "Solutions"
           url: "/en/solutions"
           weight: 2
+          identifier: "solutions"
+        # children of “Solutions”
+        - name: "Business"
+          url: "/en/solutions/business/"
+          parent: "solutions"
+          weight: 1
+          identifier: "business"
+        - name: "Strategy & Operations"
+          url: "/en/solutions/business/strategy-operations"
+          parent: "business"
+          weight: 2
+          identifier: "Strategy-Operations" 
+        - name: "Digital Transformation"
+          url: "/en/solutions/business/digital-transformation"
+          parent: "business"
+          weight: 2
+          identifier: "Digital-Transformation" 
+
+        - name: "Education"
+          url: "/en/solutions/education/"
+          parent: "solutions"
+          weight: 2
+          identifier: "education"
+        - name: "Cooperative Programs"
+          url: "/en/solutions/education/cooperative-programs"
+          parent: "education"
+          weight: 3
+          identifier: "Cooperative-Programs" 
+        - name: "Personal Academic Coaching"
+          url: "/en/solutions/education/personal-academic-coaching"
+          parent: "education"
+          weight: 3
+          identifier: "Personal-Academic-Coaching" 
+
+        - name: "Technology"
+          url: "/en/solutions/technology/"
+          parent: "solutions"
+          weight: 3
+          identifier: "technology"
+        - name: "Software Engineering"
+          url: "/en/solutions/technology/software-engineering"
+          parent: "technology"
+          weight: 3
+          identifier: "Software-Engineering" 
+        - name: "Data & Infrastructure"
+          url: "/en/solutions/technology/data-infrastructure"
+          parent: "technology"
+          weight: 3
+          identifier: "Data-Infrastructure" 
+        - name: "Technical Advisory"
+          url: "/en/solutions/technology/technical-advisory"
+          parent: "technology"
+          weight: 3
+          identifier: "Technical-Advisory" 
+        - name: "Career in Tech"
+          url: "/en/solutions/technology/career-in-tech"
+          parent: "technology"
+          weight: 3
+          identifier: "Career-In-Tech" 
+
+        - name: "Marketing"
+          url: "/en/solutions/marketing/"
+          parent: "solutions"
+          weight: 4
+          identifier: "marketing"
+        - name: "VI & Brand Development"
+          url: "/en/solutions/marketing/vi-brand-development"
+          parent: "marketing"
+          weight: 3
+          identifier: "VI-Brand-Development" 
+        - name: "Marketing Execution"
+          url: "/en/solutions/marketing/marketing-execution"
+          parent: "marketing"
+          weight: 3
+          identifier: "Marketing-Execution" 
+        # end of children of “Solutions”
+
         - name: "Our Team"
           url: "/en/team"
           weight: 3
         - name: "About"
           url: "/en/about"
-          weight: 5
+          weight: 4
       buttons:
         - name: "Book an appointment"
           url: "https://calendly.com/cyintl"
@@ -45,17 +122,95 @@ languages:
     menu:
       main:
         - name: "首页"
-          url: "/zh"
+          url: "/"
           weight: 1
         - name: "解决方案"
           url: "/zh/solutions"
           weight: 2
+          identifier: "解决方案"
+
+        # children of “Solutions”
+        - name: "商业"
+          url: "/zh/solutions/business/"
+          parent: "解决方案"
+          weight: 1
+          identifier: "商业"
+        - name: "战略与运营"
+          url: "/en/solutions/business/strategy-operations"
+          parent: "商业"
+          weight: 2
+          identifier: "战略与运营" 
+        - name: "数字化转型"
+          url: "/zh/solutions/business/digital-transformation"
+          parent: "商业"
+          weight: 2
+          identifier: "数字化转型" 
+
+        - name: "教育"
+          url: "/zh/solutions/education/"
+          parent: "解决方案"
+          weight: 2
+          identifier: "教育"
+        - name: "合作办学"
+          url: "/zh/solutions/education/cooperative-programs"
+          parent: "教育"
+          weight: 3
+          identifier: "合作办学" 
+        - name: "个人学术指导"
+          url: "/zh/solutions/education/personal-academic-coaching"
+          parent: "教育"
+          weight: 3
+          identifier: "个人学术指导" 
+
+        - name: "技术"
+          url: "/zh/solutions/technology/"
+          parent: "解决方案"
+          weight: 3
+          identifier: "技术"
+        - name: "软件工程"
+          url: "/zh/solutions/technology/software-engineering"
+          parent: "技术"
+          weight: 3
+          identifier: "软件工程" 
+        - name: "数据"
+          url: "/zh/solutions/technology/data-infrastructure"
+          parent: "技术"
+          weight: 3
+          identifier: "数据" 
+        - name: "技术咨询"
+          url: "/zh/solutions/technology/technical-advisory"
+          parent: "技术"
+          weight: 3
+          identifier: "技术咨询" 
+        - name: "求职指导"
+          url: "/zh/solutions/technology/career-in-tech"
+          parent: "技术"
+          weight: 3
+          identifier: "求职指导" 
+
+        - name: "营销"
+          url: "/zh/solutions/marketing/"
+          parent: "解决方案"
+          weight: 4
+          identifier: "营销"
+        - name: "视觉设计与品牌发展"
+          url: "/zh/solutions/marketing/visual-identity-brand-development"
+          parent: "营销"
+          weight: 3
+          identifier: "视觉设计与品牌发展" 
+        - name: "市场践行"
+          url: "/zh/solutions/marketing/marketing-execution"
+          parent: "营销"
+          weight: 3
+          identifier: "市场践行" 
+        # end of children of “Solutions”
+
         - name: "我们的团队"
           url: "/zh/team"
           weight: 3
         - name: "关于"
           url: "/zh/about"
-          weight: 5
+          weight: 4
       buttons:
         - name: "预约咨询"
           url: "https://calendly.com/cyintl"
