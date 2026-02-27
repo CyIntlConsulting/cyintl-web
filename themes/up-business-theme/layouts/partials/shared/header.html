@@ -9,7 +9,20 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarContent">
       <ul class="navbar-nav ms-auto mb-2 mb-xl-0">
-        {{/* main menu */}}
+        {{/* helper for recursion */}}
+        {{ define "renderChildren" }}
+          {{ if .HasChildren }}
+            <ul class="list-unstyled mb-0">
+              {{ range .Children }}
+                <li>
+                  <a class="dropdown-item" href="{{ .URL }}">{{ .Name }}</a>
+                  {{ template "renderChildren" . }}
+                </li>
+              {{ end }}
+            </ul>
+          {{ end }}
+        {{ end }}
+
         {{ range .Site.Menus.main }}
           {{ if .HasChildren }}
             <li class="nav-item dropdown text-center">
@@ -28,16 +41,9 @@
                 {{ range $i, $child := $children }}
                   {{ if eq (mod $i 2) 0 }}<div class="row gx-0"> {{ end }}
                   <div class="col-6">
-                    {{ if $child.HasChildren }}
-                      <h6 class="dropdown-header">{{ $child.Name }}</h6>
-                      {{ range $child.Children }}
-                        <a class="dropdown-item" href="{{ .URL }}">{{ .Name }}</a>
-                      {{ end }}
-                    {{ else }}
-                      <a class="dropdown-item" href="{{ $child.URL }}">{{ $child.Name }}</a>
-                    {{ end }}
+                    <h6 class="dropdown-header">{{ $child.Name }}</h6>
+                    {{ template "renderChildren" $child }}
                   </div>
-                  {{/* close row after every two items or at end */}}
                   {{ if or (eq (mod $i 2) 1) (eq $i (sub (len $children) 1)) }}
                     </div>
                   {{ end }}
@@ -71,11 +77,27 @@
   display: block;
 }
 
-/* make the "mega" panel even larger */
+/* make the “mega” panel even wider and shift it farther left */
 .dropdown-menu.mega-menu {
   padding: 2rem;
-  min-width: 700px;
-  max-width: 1000px;
+  width: 800px;
+  max-width: none;
+  margin-left: -200px;
+}
+
+/* indent nested lists inside the mega menu */
+.mega-menu .list-unstyled ul {
+  margin-left: 1rem;
+}
+
+/* smaller text for sub‑submenu items */
+.mega-menu ul ul .dropdown-item {
+  font-size: .875rem; /* adjust as needed */
+}
+
+/* shrink every item in the mega‑dropdown */
+.mega-menu .dropdown-item {
+  font-size: .9rem; /* smaller than normal nav‑link */
 }
 
 /* keep two even columns */
