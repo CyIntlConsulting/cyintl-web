@@ -41,7 +41,7 @@
                 {{ range $i, $child := $children }}
                   {{ if eq (mod $i 2) 0 }}<div class="row gx-0"> {{ end }}
                   <div class="col-6">
-                    <h6 class="dropdown-header">{{ $child.Name }}</h6>
+                    <h6 class="dropdown-header text-secondary">{{ $child.Name }}</h6>
                     {{ template "renderChildren" $child }}
                   </div>
                   {{ if or (eq (mod $i 2) 1) (eq $i (sub (len $children) 1)) }}
@@ -80,7 +80,7 @@
 /* make the “mega” panel even wider and shift it farther left */
 .dropdown-menu.mega-menu {
   padding: 2rem;
-  width: 800px;
+  width: 650px;
   max-width: none;
   margin-left: -200px;
 }
@@ -92,12 +92,12 @@
 
 /* smaller text for sub‑submenu items */
 .mega-menu ul ul .dropdown-item {
-  font-size: .875rem; /* adjust as needed */
+  font-size: .785rem; /* adjust as needed */
 }
 
 /* shrink every item in the mega‑dropdown */
 .mega-menu .dropdown-item {
-  font-size: .9rem; /* smaller than normal nav‑link */
+  font-size: .8rem; /* smaller than normal nav‑link */
 }
 
 /* keep two even columns */
