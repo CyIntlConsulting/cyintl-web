@@ -7,3 +7,69 @@
     }
   }
 }
+
+/* show dropdown on hover */
+.navbar-nav .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* make the “mega” panel even wider and shift it farther left */
+.dropdown-menu.mega-menu {
+  padding: 2rem;
+  width: 650px;
+  max-width: none;
+  margin-left: -200px;
+}
+
+/* indent nested lists inside the mega menu */
+.mega-menu .list-unstyled ul {
+  margin-left: 1rem;
+}
+
+/* smaller text for sub‑submenu items */
+.mega-menu ul ul .dropdown-item {
+  font-size: 0.785rem; /* adjust as needed */
+}
+
+/* shrink every item in the mega‑dropdown */
+.mega-menu .dropdown-item {
+  font-size: 0.8rem; /* smaller than normal nav‑link */
+}
+
+/* keep two even columns */
+.dropdown-menu > .row > .col-6 {
+  white-space: nowrap;
+}
+
+/* Responsive styles for Solutions submenu under 1200px */
+@media (max-width: 1199px) {
+  .dropdown-menu.mega-menu {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    border-radius: 0;
+    position: absolute;
+  }
+  .dropdown-menu.mega-menu .row {
+    flex-direction: column;
+    margin: 0;
+  }
+  .dropdown-menu.mega-menu .col-6 {
+    width: 100%;
+    max-width: 100%;
+    white-space: normal;
+    margin-bottom: 1rem;
+  }
+  .mega-menu .dropdown-header {
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .mega-menu .dropdown-item {
+    font-size: 0.95rem;
+    padding: 0.5rem 1rem;
+  }
+}

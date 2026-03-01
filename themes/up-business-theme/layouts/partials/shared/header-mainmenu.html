@@ -1,0 +1,47 @@
+{{/* helper for recursion */}}
+{{ define "renderChildren" }}
+  {{ if .HasChildren }}
+    <ul class="list-unstyled mb-0">
+      {{ range .Children }}
+        <li>
+          <a class="dropdown-item" href="{{ .URL }}">{{ .Name }}</a>
+          {{ template "renderChildren" . }}
+        </li>
+      {{ end }}
+    </ul>
+  {{ end }}
+{{ end }}
+
+{{ range .Site.Menus.main }}
+  {{ if .HasChildren }}
+    <li class="nav-item dropdown text-center">
+      <a
+        class="nav-link dropdown-toggle text-primary px-4"
+        href="{{ .URL }}"
+        id="navbarDropdown{{ .Identifier }}"
+        role="button"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        {{ .Name }}
+      </a>
+      <ul class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown{{ .Identifier }}">
+        {{ $children := .Children }}
+        {{ range $i, $child := $children }}
+          {{ if eq (mod $i 2) 0 }}<div class="row gx-0"> {{ end }}
+          <div class="col-6">
+            <h6 class="dropdown-header text-secondary">{{ $child.Name }}</h6>
+            {{ template "renderChildren" $child }}
+          </div>
+          {{ if or (eq (mod $i 2) 1) (eq $i (sub (len $children) 1)) }}
+            </div>
+          {{ end }}
+        {{ end }}
+      </ul>
+    </li>
+  {{ else }}
+    <li class="nav-item text-center">
+      <a class="nav-link text-primary px-4" href="{{ .URL }}">{{ .Name }}</a>
+    </li>
+  {{ end }}
+{{ end }}

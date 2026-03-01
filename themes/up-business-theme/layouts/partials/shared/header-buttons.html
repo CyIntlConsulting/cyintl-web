@@ -1,0 +1,5 @@
+{{ range .Site.Menus.buttons }}
+  <li class="nav-item">
+    <a class="nav-link btn btn-primary text-light px-4" href="{{ .URL }}" target="_blank">{{ .Name }}</a>
+  </li>
+{{ end }}
