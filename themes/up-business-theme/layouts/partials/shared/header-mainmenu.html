@@ -30,7 +30,11 @@
         {{ range $i, $child := $children }}
           {{ if eq (mod $i 2) 0 }}<div class="row gx-0"> {{ end }}
           <div class="col-6">
-            <h6 class="dropdown-header text-secondary">{{ $child.Name }}</h6>
+            {{ $anchorMap := dict "商业" "business" "Business" "business" "教育" "education" "Education" "education" "营销" "marketing" "Marketing" "marketing" "技术" "technology" "Technology" "technology" }}
+            {{ $anchor := index $anchorMap $child.Name | default (lower $child.Name) }}
+            <h6 class="dropdown-header text-secondary">
+              <a href="{{ $.Site.LanguagePrefix }}/solutions#{{ $anchor }}" class="text-secondary text-decoration-none">{{ $child.Name }}</a>
+            </h6>
             {{ template "renderChildren" $child }}
           </div>
           {{ if or (eq (mod $i 2) 1) (eq $i (sub (len $children) 1)) }}
