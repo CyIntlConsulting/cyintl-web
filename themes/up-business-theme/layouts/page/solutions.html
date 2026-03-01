@@ -7,27 +7,29 @@
 {{ $marketing := index .Site.Data $lang "solutions" "marketing" }}
 {{ $technology := index .Site.Data $lang "solutions" "technology" }}
 
-<section class="section py-5">
+<section class="section py-5 bg-light">
   <div class="container">
     <div class="row justify-content-center pb-5">
       <div class="col-12">
         <h2 class="display-1 fw-bold text-center text-primary pb-3">{{ .Title }}</h2>
         {{ with .Params.description }}
-          <p class="text-center text-secondary pb-3">{{ . }}</p>
+          <p class="lead text-center text-secondary pb-3">{{ . }}</p>
         {{ end }}
       </div>
     </div>
     <div class="row g-5">
       {{/* Business Solution */}}
-      <div class="col-12 mb-4">
-        <div class="card h-100 shadow-sm border-0">
-          <div class="card-body d-flex flex-column align-items-start text-start">
-            <img src="/images/icons/chart-diagram-solid-full.svg" alt="Business" class="mb-3" style="width:64px;height:64px;object-fit:contain;">
-            <h4 class="h5 fw-bold mb-2 text-dark">Business</h4>
+      <div class="col-12 mb-5">
+        <div class="card h-100 shadow-lg border-0 bg-white">
+          <div class="card-body p-4">
+            <div class="d-flex align-items-center mb-3">
+              <img src="/images/icons/chart-diagram-solid-full.svg" alt="Business" class="me-3" style="width:48px;height:48px;object-fit:contain;">
+              <h3 class="fw-bold text-dark mb-0">Business</h3>
+            </div>
             <div class="row">
               {{ range $business.sections }}
-                <div class="col mb-4">
-                  <h5 class="fw-semibold mb-2 text-primary">{{ .title }}</h5>
+                <div class="col-12 col-md mb-4">
+                  <h5 class="fw-semibold mb-2 text-primary border-bottom pb-1">{{ .title }}</h5>
                   <ul class="list-unstyled text-start small mb-0">
                     {{ range .items }}
                       <li class="mb-3">
@@ -45,15 +47,17 @@
         </div>
       </div>
       {{/* Education Solution */}}
-      <div class="col-12 mb-4">
-        <div class="card h-100 shadow-sm border-0">
-          <div class="card-body d-flex flex-column align-items-start text-start">
-            <img src="/images/icons/book-open-solid-full.svg" alt="Education" class="mb-3" style="width:64px;height:64px;object-fit:contain;">
-            <h4 class="h5 fw-bold mb-2 text-dark">Education</h4>
+      <div class="col-12 mb-5">
+        <div class="card h-100 shadow-lg border-0 bg-white">
+          <div class="card-body p-4">
+            <div class="d-flex align-items-center mb-3">
+              <img src="/images/icons/book-open-solid-full.svg" alt="Education" class="me-3" style="width:48px;height:48px;object-fit:contain;">
+              <h3 class="fw-bold text-dark mb-0">Education</h3>
+            </div>
             <div class="row">
               {{ range $education.sections }}
                 <div class="col-12 col-md mb-4">
-                  <h5 class="fw-semibold mb-2 text-primary">{{ .title }}</h5>
+                  <h5 class="fw-semibold mb-2 text-primary border-bottom pb-1">{{ .title }}</h5>
                   <ul class="list-unstyled text-start small mb-0">
                     {{ range .items }}
                       <li class="mb-3">
@@ -71,15 +75,17 @@
         </div>
       </div>
       {{/* Marketing Solution */}}
-      <div class="col-12 mb-4">
-        <div class="card h-100 shadow-sm border-0">
-          <div class="card-body d-flex flex-column align-items-start text-start">
-            <img src="/images/icons/chart-area-solid-full.svg" alt="Marketing" class="mb-3" style="width:64px;height:64px;object-fit:contain;">
-            <h4 class="h5 fw-bold mb-2 text-dark">Marketing</h4>
+      <div class="col-12 mb-5">
+        <div class="card h-100 shadow-lg border-0 bg-white">
+          <div class="card-body p-4">
+            <div class="d-flex align-items-center mb-3">
+              <img src="/images/icons/chart-area-solid-full.svg" alt="Marketing" class="me-3" style="width:48px;height:48px;object-fit:contain;">
+              <h3 class="fw-bold text-dark mb-0">Marketing</h3>
+            </div>
             <div class="row">
               {{ range $marketing.sections }}
                 <div class="col-12 col-md mb-4">
-                  <h5 class="fw-semibold mb-2 text-primary">{{ .title }}</h5>
+                  <h5 class="fw-semibold mb-2 text-primary border-bottom pb-1">{{ .title }}</h5>
                   <ul class="list-unstyled text-start small mb-0">
                     {{ range .items }}
                       <li class="mb-3">
@@ -97,15 +103,17 @@
         </div>
       </div>
       {{/* Technology Solution */}}
-      <div class="col-12 mb-4">
-        <div class="card h-100 shadow-sm border-0">
-          <div class="card-body d-flex flex-column align-items-start text-start">
-            <img src="/images/icons/network-wired-solid-full.svg" alt="Technology" class="mb-3" style="width:64px;height:64px;object-fit:contain;">
-            <h4 class="h5 fw-bold mb-2 text-dark">Technology</h4>
+      <div class="col-12 mb-5">
+        <div class="card h-100 shadow-lg border-0 bg-white">
+          <div class="card-body p-4">
+            <div class="d-flex align-items-center mb-3">
+              <img src="/images/icons/network-wired-solid-full.svg" alt="Technology" class="me-3" style="width:48px;height:48px;object-fit:contain;">
+              <h3 class="fw-bold text-dark mb-0">Technology</h3>
+            </div>
             <div class="row">
               {{ range $technology.sections }}
                 <div class="col-12 col-md mb-4">
-                  <h5 class="fw-semibold mb-2 text-primary">{{ .title }}</h5>
+                  <h5 class="fw-semibold mb-2 text-primary border-bottom pb-1">{{ .title }}</h5>
                   <ul class="list-unstyled text-start small mb-0">
                     {{ range .items }}
                       <li class="mb-3">
