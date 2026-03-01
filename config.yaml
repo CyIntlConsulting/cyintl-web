@@ -9,6 +9,12 @@ summaryLength: 20
 # 1. ROOT LEVEL LANGUAGES (Moved out of params)
 languages:
   en:
+    contentDir: content/en
+    languageName: English
+    languageCode: en-US
+    weight: 1
+    title: "CyIntl Consulting"
+    # English Menus
     menu:
       main:
         - name: "Home"
