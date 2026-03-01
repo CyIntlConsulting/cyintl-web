@@ -1,0 +1,129 @@
+{{ define "main" }}
+
+{{/* Get the correct data based on current page language */}}
+{{ $lang := .Lang | default "en" }}
+{{ $business := index .Site.Data $lang "solutions" "business" }}
+{{ $education := index .Site.Data $lang "solutions" "education" }}
+{{ $marketing := index .Site.Data $lang "solutions" "marketing" }}
+{{ $technology := index .Site.Data $lang "solutions" "technology" }}
+
+<section class="section py-5">
+  <div class="container">
+    <div class="row justify-content-center pb-5">
+      <div class="col-12">
+        <h2 class="display-1 fw-bold text-center text-primary pb-3">{{ .Title }}</h2>
+        {{ with .Params.description }}
+          <p class="text-center text-secondary pb-3">{{ . }}</p>
+        {{ end }}
+      </div>
+    </div>
+    <div class="row g-5">
+      {{/* Business Solution */}}
+      <div class="col-12 mb-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body d-flex flex-column align-items-start text-start">
+            <img src="/images/icons/chart-diagram-solid-full.svg" alt="Business" class="mb-3" style="width:64px;height:64px;object-fit:contain;">
+            <h4 class="h5 fw-bold mb-2 text-dark">Business</h4>
+            <div class="row">
+              {{ range $business.sections }}
+                <div class="col mb-4">
+                  <h5 class="fw-semibold mb-2 text-primary">{{ .title }}</h5>
+                  <ul class="list-unstyled text-start small mb-0">
+                    {{ range .items }}
+                      <li class="mb-3">
+                        <span class="fw-bold text-dark">{{ .name }}</span>
+                        {{ with .description }}
+                          <div class="text-secondary">{{ . }}</div>
+                        {{ end }}
+                      </li>
+                    {{ end }}
+                  </ul>
+                </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+      {{/* Education Solution */}}
+      <div class="col-12 mb-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body d-flex flex-column align-items-start text-start">
+            <img src="/images/icons/book-open-solid-full.svg" alt="Education" class="mb-3" style="width:64px;height:64px;object-fit:contain;">
+            <h4 class="h5 fw-bold mb-2 text-dark">Education</h4>
+            <div class="row">
+              {{ range $education.sections }}
+                <div class="col-12 col-md mb-4">
+                  <h5 class="fw-semibold mb-2 text-primary">{{ .title }}</h5>
+                  <ul class="list-unstyled text-start small mb-0">
+                    {{ range .items }}
+                      <li class="mb-3">
+                        <span class="fw-bold text-dark">{{ .name }}</span>
+                        {{ with .description }}
+                          <div class="text-secondary">{{ . }}</div>
+                        {{ end }}
+                      </li>
+                    {{ end }}
+                  </ul>
+                </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+      {{/* Marketing Solution */}}
+      <div class="col-12 mb-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body d-flex flex-column align-items-start text-start">
+            <img src="/images/icons/chart-area-solid-full.svg" alt="Marketing" class="mb-3" style="width:64px;height:64px;object-fit:contain;">
+            <h4 class="h5 fw-bold mb-2 text-dark">Marketing</h4>
+            <div class="row">
+              {{ range $marketing.sections }}
+                <div class="col-12 col-md mb-4">
+                  <h5 class="fw-semibold mb-2 text-primary">{{ .title }}</h5>
+                  <ul class="list-unstyled text-start small mb-0">
+                    {{ range .items }}
+                      <li class="mb-3">
+                        <span class="fw-bold text-dark">{{ .name }}</span>
+                        {{ with .description }}
+                          <div class="text-secondary">{{ . }}</div>
+                        {{ end }}
+                      </li>
+                    {{ end }}
+                  </ul>
+                </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+      {{/* Technology Solution */}}
+      <div class="col-12 mb-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body d-flex flex-column align-items-start text-start">
+            <img src="/images/icons/network-wired-solid-full.svg" alt="Technology" class="mb-3" style="width:64px;height:64px;object-fit:contain;">
+            <h4 class="h5 fw-bold mb-2 text-dark">Technology</h4>
+            <div class="row">
+              {{ range $technology.sections }}
+                <div class="col-12 col-md mb-4">
+                  <h5 class="fw-semibold mb-2 text-primary">{{ .title }}</h5>
+                  <ul class="list-unstyled text-start small mb-0">
+                    {{ range .items }}
+                      <li class="mb-3">
+                        <span class="fw-bold text-dark">{{ .name }}</span>
+                        {{ with .description }}
+                          <div class="text-secondary">{{ . }}</div>
+                        {{ end }}
+                      </li>
+                    {{ end }}
+                  </ul>
+                </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

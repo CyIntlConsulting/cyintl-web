@@ -1,11 +1,17 @@
 sections:
   - title: "Brand Development"
     items:
-      - "VI Design & Delivery"
-      - "Content Creation"
-      - "Multi-Platform Management"
-      - "Event Planning & Management"
+      - name: "VI Design & Delivery"
+        description: "Visual identity design and delivery for strong brand presence."
+      - name: "Content Creation"
+        description: "Create engaging content for various platforms and audiences."
+      - name: "Multi-Platform Management"
+        description: "Manage brand presence across multiple platforms."
+      - name: "Event Planning & Management"
+        description: "Plan and manage events to boost brand engagement."
   - title: "Marketing Strategy"
     items:
-      - "Market & Sales Analysis"
-      - "Data-Driven Marketing Strategy"
+      - name: "Market & Sales Analysis"
+        description: "Analyze market trends and sales data for strategic decisions."
+      - name: "Data-Driven Marketing Strategy"
+        description: "Develop marketing strategies based on data insights."
