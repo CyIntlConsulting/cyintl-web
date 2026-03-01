@@ -1,0 +1,12 @@
+sections:
+  - title: "Strategy & Operations"
+    items:
+      - "Business Modeling"
+      - "Organizational Design"
+      - "Change Management"
+      - "SOP Development"
+  - title: "Digital Transformation"
+    items:
+      - "AI Integration"
+      - "Business Intelligence & Analytics"
+      - "Data-Driven Decision Making Systems"

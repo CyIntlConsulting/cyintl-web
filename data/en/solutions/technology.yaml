@@ -1,0 +1,16 @@
+sections:
+  - title: "Software Engineering"
+    items:
+      - "Web Design & Development"
+      - "Codebase Optimization & Refactoring"
+      - "System Integration & Feature Unification"
+      - "SEO Optimization"
+      - "Cloud Migration & Architecture"
+  - title: "Data"
+    items:
+      - "Database Management & Migration"
+      - "Schema Design & Evaluation"
+  - title: "Technical Support"
+    items:
+      - "Vendor Selection & Technical Interviewing"
+      - "Internal Process Audits"
