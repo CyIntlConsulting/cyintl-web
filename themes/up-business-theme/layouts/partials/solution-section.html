@@ -1,0 +1,27 @@
+<div class="col-12 mb-5" id="{{ .id }}">
+  <div class="card h-100 shadow-lg border-0 bg-white">
+    <div class="card-body p-4">
+      <div class="d-flex align-items-center mb-3">
+        <img src="{{ .icon }}" alt="{{ .title }}" class="me-3" style="width:48px;height:48px;object-fit:contain;">
+        <h3 class="fw-bold text-dark mb-0">{{ .title }}</h3>
+      </div>
+      <div class="row">
+        {{ range .section.sections }}
+          <div class="col-12 col-md mb-4">
+            <h5 class="fw-semibold mb-2 text-primary border-bottom pb-1">{{ .title }}</h5>
+            <ul class="list-unstyled text-start small mb-0">
+              {{ range .items }}
+                <li class="mb-3">
+                  <span class="fw-bold text-dark">{{ .name }}</span>
+                  {{ with .description }}
+                    <div class="text-secondary">{{ . }}</div>
+                  {{ end }}
+                </li>
+              {{ end }}
+            </ul>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
