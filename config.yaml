@@ -20,244 +20,202 @@ languages:
         - name: "Home"
           url: "/"
           weight: 1
-          id: "home"
         - name: "Solutions"
           url: "/en/solutions"
           weight: 2
           identifier: "solutions"
-          id: "solutions"
         # children of “Solutions”
         - name: "Business"
           url: "/en/solutions/#business"
           parent: "solutions"
           weight: 1
           identifier: "business"
-          id: "business"
         - name: "Strategy & Operations"
           url: "/en/solutions/#strategy-operations"
           parent: "business"
           weight: 1
           identifier: "strategy-operations"
-          id: "strategy-operations"
         - name: "Business Modeling"
           url: "/en/solutions/#business-modeling"
           parent: "strategy-operations"
           weight: 1
-          id: "business-modeling"
         - name: "Organizational Design"
           url: "/en/solutions/#organizational-design"
           parent: "strategy-operations"
           weight: 2
-          id: "organizational-design"
         - name: "Change Management"
           url: "/en/solutions/#change-management"
           parent: "strategy-operations"
           weight: 3
-          id: "change-management"
         - name: "SOP Development"
           url: "/en/solutions/#sop-development"
           parent: "strategy-operations"
           weight: 4
-          id: "sop-development"
         - name: "Digital Transformation"
           url: "/en/solutions/#digital-transformation"
           parent: "business"
           weight: 2
           identifier: "digital-transformation"
-          id: "digital-transformation"
         - name: "AI Integration"
           url: "/en/solutions/#ai-integration"
           parent: "digital-transformation"
           weight: 1
-          id: "ai-integration"
         - name: "Business Intelligence & Analytics"
           url: "/en/solutions/#business-intelligence-analytics"
           parent: "digital-transformation"
           weight: 2
-          id: "business-intelligence-analytics"
         - name: "Data-Driven Decision Making Systems"
           url: "/en/solutions/#data-driven-decision-making-systems"
           parent: "digital-transformation"
           weight: 3
-          id: "data-driven-decision-making-systems"
         # Education
         - name: "Education"
           url: "/en/solutions/#education"
           parent: "solutions"
           weight: 2
           identifier: "education"
-          id: "education"
         - name: "Cooperative Programs"
           url: "/en/solutions/#cooperative-programs"
           parent: "education"
           weight: 1
           identifier: "cooperative-programs"
-          id: "cooperative-programs"
         - name: "Program Applications & Compliance"
           url: "/en/solutions/#program-applications-compliance"
           parent: "cooperative-programs"
           weight: 1
-          id: "program-applications-compliance"
         - name: "Derivative Project Development"
           url: "/en/solutions/#derivative-projects"
           parent: "cooperative-programs"
           weight: 2
-          id: "derivative-projects"
         - name: "Student Recruitment"
           url: "/en/solutions/#student-recruitment"
           parent: "cooperative-programs"
           weight: 3
-          id: "student-recruitment"
         - name: "Investor & Partner Relations"
           url: "/en/solutions/#partner-relations"
           parent: "cooperative-programs"
           weight: 4
-          id: "partner-relations"
         - name: "Academic/Job Coaching"
           url: "/en/solutions/#academic-job-coaching"
           parent: "education"
           weight: 2
           identifier: "academic-job-coaching"
-          id: "academic-job-coaching"
         - name: "School Selection & Program Matching"
           url: "/en/solutions/#school-selection"
           parent: "academic-job-coaching"
           weight: 1
-          id: "school-selection"
         - name: "Academic Pathway Design"
           url: "/en/solutions/#academic-pathway"
           parent: "academic-job-coaching"
           weight: 2
-          id: "academic-pathway"
         - name: "Resume Optimization"
           url: "/en/solutions/#resume-optimization"
           parent: "academic-job-coaching"
           weight: 3
-          id: "resume-optimization"
         - name: "1:1 Mock Interview"
           url: "/en/solutions/#mock-interview"
           parent: "academic-job-coaching"
           weight: 4
-          id: "mock-interview"
+          
         # Technology
         - name: "Technology"
           url: "/en/solutions/#technology"
           parent: "solutions"
           weight: 3
           identifier: "technology"
-          id: "technology"
         - name: "Software Engineering"
           url: "/en/solutions/#software-engineering"
           parent: "technology"
           weight: 1
           identifier: "software-engineering"
-          id: "software-engineering"
         - name: "Web Design & Development"
           url: "/en/solutions/#web-design"
           parent: "software-engineering"
           weight: 1
-          id: "web-design"
         - name: "Codebase Optimization & Refactoring"
           url: "/en/solutions/#codebase-optimization"
           parent: "software-engineering"
           weight: 2
-          id: "codebase-optimization"
         - name: "System Integration & Feature Unification"
           url: "/en/solutions/#system-integration"
           parent: "software-engineering"
           weight: 3
-          id: "system-integration"
         - name: "SEO Optimization"
           url: "/en/solutions/#seo-optimization"
           parent: "software-engineering"
           weight: 4
-          id: "seo-optimization"
         - name: "Cloud Migration & Architecture"
           url: "/en/solutions/#cloud-migration"
           parent: "software-engineering"
           weight: 5
-          id: "cloud-migration"
         - name: "Data"
           url: "/en/solutions/#data"
           parent: "technology"
           weight: 2
           identifier: "data"
-          id: "data"
         - name: "Database Management & Migration"
           url: "/en/solutions/#database-management"
           parent: "data"
           weight: 1
-          id: "database-management"
         - name: "Schema Design & Evaluation"
           url: "/en/solutions/#schema-design"
           parent: "data"
           weight: 2
-          id: "schema-design"
         - name: "Technical Support"
           url: "/en/solutions/#technical-support"
           parent: "technology"
           weight: 3
           identifier: "technical-support"
-          id: "technical-support"
         - name: "Vendor Selection & Technical Interviewing"
           url: "/en/solutions/#vendor-selection"
           parent: "technical-support"
           weight: 1
-          id: "vendor-selection"
         - name: "Internal Process Audits"
           url: "/en/solutions/#process-audits"
           parent: "technical-support"
           weight: 2
-          id: "process-audits"
+
         # Marketing
         - name: "Marketing"
           url: "/en/solutions/#marketing"
           parent: "solutions"
           weight: 4
           identifier: "marketing"
-          id: "marketing"
         - name: "Brand Development"
           url: "/en/solutions/#brand-development"
           parent: "marketing"
           weight: 1
           identifier: "brand-development"
-          id: "brand-development"
         - name: "VI Design & Delivery"
           url: "/en/solutions/#vi-design"
           parent: "brand-development"
           weight: 1
-          id: "vi-design"
         - name: "Content Creation"
           url: "/en/solutions/#content-creation"
           parent: "brand-development"
           weight: 2
-          id: "content-creation"
         - name: "Multi-Platform Management"
           url: "/en/solutions/#multi-platform-management"
           parent: "brand-development"
           weight: 3
-          id: "multi-platform-management"
         - name: "Event Planning & Management"
           url: "/en/solutions/#event-planning"
           parent: "brand-development"
           weight: 4
-          id: "event-planning"
         - name: "Marketing Strategy"
           url: "/en/solutions/#marketing-strategy"
           parent: "marketing"
           weight: 2
           identifier: "marketing-strategy"
-          id: "marketing-strategy"
         - name: "Market & Sales Analysis"
           url: "/en/solutions/#market-analysis"
           parent: "marketing-strategy"
           weight: 1
-          id: "market-analysis"
         - name: "Data-Driven Marketing Strategy"
           url: "/en/solutions/#data-driven-strategy"
           parent: "marketing-strategy"
           weight: 2
-          id: "data-driven-strategy"
+          
         # end children of “Solutions”
         - name: "Our Team"
           url: "/en/team"
@@ -292,12 +250,11 @@ languages:
         - name: "首页"
           url: "/"
           weight: 1
-          id: "home"
+
         - name: "解决方案"
           url: "/zh/solutions"
           weight: 2
           identifier: "解决方案"
-          id: "solutions"
 
         # children of “解决方案”
         - name: "商业"
@@ -305,232 +262,189 @@ languages:
           parent: "解决方案"
           weight: 1
           identifier: "商业"
-          id: "business"
         - name: "战略与运营"
           url: "/zh/solutions/#strategy-operations"
           parent: "商业"
           weight: 1
           identifier: "战略与运营"
-          id: "strategy-operations"
         - name: "商业建模"
           url: "/zh/solutions/#business-modeling"
           parent: "战略与运营"
           weight: 1
-          id: "business-modeling"
         - name: "组织架构设计与改进"
           url: "/zh/solutions/#organizational-design"
           parent: "战略与运营"
           weight: 2
-          id: "organizational-design"
         - name: "交接管理"
           url: "/zh/solutions/#change-management"
           parent: "战略与运营"
           weight: 3
-          id: "change-management"
         - name: "SOP的开发与优化"
           url: "/zh/solutions/#sop-development"
           parent: "战略与运营"
           weight: 4
-          id: "sop-development"
         - name: "数字化转型"
           url: "/zh/solutions/#digital-transformation"
           parent: "商业"
           weight: 2
           identifier: "数字化转型"
-          id: "digital-transformation"
         - name: "AI集成与赋能"
           url: "/zh/solutions/#ai-integration"
           parent: "数字化转型"
           weight: 1
-          id: "ai-integration"
         - name: "商业分析与商业智能"
           url: "/zh/solutions/#business-intelligence-analytics"
           parent: "数字化转型"
           weight: 2
-          id: "business-intelligence-analytics"
         - name: "数据驱动的决策系统"
           url: "/zh/solutions/#data-driven-decision-making-systems"
           parent: "数字化转型"
           weight: 3
-          id: "data-driven-decision-making-systems"
 
         - name: "教育"
           url: "/zh/solutions/#education"
           parent: "解决方案"
           weight: 2
           identifier: "教育"
-          id: "education"
         - name: "合作办学"
           url: "/zh/solutions/#cooperative-programs"
           parent: "教育"
           weight: 1
           identifier: "合作办学"
-          id: "cooperative-programs"
         - name: "项目申请与管理"
           url: "/zh/solutions/#program-applications-compliance"
           parent: "合作办学"
           weight: 1
-          id: "program-applications-compliance"
         - name: "衍生项目开发"
           url: "/zh/solutions/#derivative-projects"
           parent: "合作办学"
           weight: 2
-          id: "derivative-projects"
         - name: "招生"
           url: "/zh/solutions/#student-recruitment"
           parent: "合作办学"
           weight: 3
-          id: "student-recruitment"
         - name: "投资与合作"
           url: "/zh/solutions/#partner-relations"
           parent: "合作办学"
           weight: 4
-          id: "partner-relations"
         - name: "学术/求职指导"
           url: "/zh/solutions/#academic-job-coaching"
           parent: "教育"
           weight: 2
           identifier: "学术求职指导"
-          id: "academic-job-coaching"
         - name: "学校选择与项目匹配"
           url: "/zh/solutions/#school-selection"
           parent: "学术求职指导"
           weight: 1
-          id: "school-selection"
         - name: "学术路径设计"
           url: "/zh/solutions/#academic-pathway"
           parent: "学术求职指导"
           weight: 2
-          id: "academic-pathway"
         - name: "简历优化"
           url: "/zh/solutions/#resume-optimization"
           parent: "学术求职指导"
           weight: 3
-          id: "resume-optimization"
         - name: "1:1 模拟面试"
           url: "/zh/solutions/#mock-interview"
           parent: "学术求职指导"
           weight: 4
-          id: "mock-interview"
 
         - name: "技术"
           url: "/zh/solutions/#technology"
           parent: "解决方案"
           weight: 3
           identifier: "技术"
-          id: "technology"
         - name: "软件工程"
           url: "/zh/solutions/#software-engineering"
           parent: "技术"
           weight: 1
           identifier: "软件工程"
-          id: "software-engineering"
         - name: "网页设计与开发"
           url: "/zh/solutions/#web-design"
           parent: "软件工程"
           weight: 1
-          id: "web-design"
         - name: "代码库优化与重构"
           url: "/zh/solutions/#codebase-optimization"
           parent: "软件工程"
           weight: 2
-          id: "codebase-optimization"
         - name: "系统集成与功能统合"
           url: "/zh/solutions/#system-integration"
           parent: "软件工程"
           weight: 3
-          id: "system-integration"
         - name: "SEO 优化"
           url: "/zh/solutions/#seo-optimization"
           parent: "软件工程"
           weight: 4
-          id: "seo-optimization"
         - name: "云迁移与架构设计"
           url: "/zh/solutions/#cloud-migration"
           parent: "软件工程"
           weight: 5
-          id: "cloud-migration"
         - name: "数据"
           url: "/zh/solutions/#data"
           parent: "技术"
           weight: 2
           identifier: "数据"
-          id: "data"
         - name: "数据库管理与迁移"
           url: "/zh/solutions/#database-management"
           parent: "数据"
           weight: 1
-          id: "database-management"
         - name: "数据模式设计与评估"
           url: "/zh/solutions/#schema-design"
           parent: "数据"
           weight: 2
-          id: "schema-design"
         - name: "技术支持"
           url: "/zh/solutions/#technical-support"
           parent: "技术"
           weight: 3
           identifier: "技术支持"
-          id: "technical-support"
         - name: "供应商选择与技术面试"
           url: "/zh/solutions/#vendor-selection"
           parent: "技术支持"
           weight: 1
-          id: "vendor-selection"
         - name: "内部开发流程审计"
           url: "/zh/solutions/#process-audits"
           parent: "技术支持"
           weight: 2
-          id: "process-audits"
 
         - name: "营销"
           url: "/zh/solutions/#marketing"
           parent: "解决方案"
           weight: 4
           identifier: "营销"
-          id: "marketing"
         - name: "品牌发展"
           url: "/zh/solutions/#brand-development"
           parent: "营销"
           weight: 1
           identifier: "品牌发展"
-          id: "brand-development"
         - name: "视觉识别 (VI) 设计"
           url: "/zh/solutions/#vi-design"
           parent: "品牌发展"
           weight: 1
-          id: "vi-design"
         - name: "内容与文案创作"
           url: "/zh/solutions/#content-creation"
           parent: "品牌发展"
           weight: 2
-          id: "content-creation"
         - name: "多平台内容管理"
           url: "/zh/solutions/#multi-platform-management"
           parent: "品牌发展"
           weight: 3
-          id: "multi-platform-management"
         - name: "活动策划与管理"
           url: "/zh/solutions/#event-planning"
           parent: "品牌发展"
           weight: 4
-          id: "event-planning"
         - name: "营销策略"
           url: "/zh/solutions/#marketing-strategy"
           parent: "营销"
           weight: 2
           identifier: "营销策略"
-          id: "marketing-strategy"
         - name: "市场与销售分析"
           url: "/zh/solutions/#market-analysis"
           parent: "营销策略"
           weight: 1
-          id: "market-analysis"
         - name: "数据驱动的营销策略制定"
           url: "/zh/solutions/#data-driven-strategy"
           parent: "营销策略"
           weight: 2
-          id: "data-driven-strategy"
 
 
         # end children of “解决方案”
