@@ -3,6 +3,7 @@ title = "About CyIntl"
 description = ""
 aliases = ["about-us", "about-hugo", "contact"]
 author = "Cleo"
+layout = "about"
 +++
 CyIntl (pronounced “Sigh-Intl”) is a comprehensive consulting platform deeply rooted in education, technology, business, and marketing. We believe in the power of **time and compounding**, dedicated to integrating core resources for individuals and institutions, unlocking growth potential, and driving modernization across industries to reshape the future blueprint.
 

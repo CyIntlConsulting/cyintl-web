@@ -1,0 +1,53 @@
+{{ define "main" }}
+{{ $data := index .Site.Data .Lang }}
+{{ $aboutData := $data.about.about }}
+<section class="section blog-single py-5">
+	<div class="container">
+		<div class="row justify-content-center pb-5">
+			<div class="col-12">
+				{{ with .Title }}
+					<h2 class="display-1 fw-bold text-center text-primary pb-3">{{ . }}</h2>
+				{{ end }}
+				{{ with $aboutData.summary }}
+					<p class="text-left text-secondary pb-3">{{ . }}</p>
+				{{ end }}
+			</div>
+		</div>
+		<div class="about-qa-list">
+			<div class="about-qa-item mb-4">
+				<h3>{{ if eq .Lang "zh" }}发展历程{{ else }}Where is CyIntl located?{{ end }}</h3>
+				<p>{{ $aboutData.location }}</p>
+			</div>
+			<div class="about-qa-item mb-4">
+				<h3>{{ if eq .Lang "zh" }}合作伙伴{{ else }}Who are CyIntl's partners?{{ end }}</h3>
+				<p>{{ $aboutData.partnerships }}</p>
+			</div>
+			<div class="about-qa-item mb-4">
+        {{ if $aboutData.services }}
+        <h3> {{ if eq .Lang "zh" }}关注领域{{ else }}Our Services{{ end }}</h3>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+          {{ range $aboutData.services }}
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <div class="card-body">
+                <h5 class="card-title fw-bold text-primary">{{ .name }}</h5>
+                <p class="card-text text-secondary">{{ .desc }}</p>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+        {{ end }}
+			</div>
+			<div class="about-qa-item mb-4">
+				<h3>{{ if eq .Lang "zh" }}发展愿景{{ else }}What is CyIntl's vision?{{ end }}</h3>
+				<p>{{ $aboutData.vision }}</p>
+			</div>
+      <div class="about-qa-item mb-4">
+				<h3>{{ if eq .Lang "zh" }}加入我们{{ else }}Join Us{{ end }}</h3>
+				<p>{{ $aboutData.vision }}</p>
+			</div>
+		</div>
+	</div>
+</section>
+{{ end }}

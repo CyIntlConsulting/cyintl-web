@@ -3,6 +3,7 @@ title = "关于CyIntl"
 description = "CyIntl (Sigh-Intl) 是一家深耕教育、科技、商业与终端营销的综合性咨询平台，致力于全球资源整合与现代化转型。"
 aliases = ["about-us", "about-hugo", "contact"]
 author = "Cleo"
+layout = "about"
 +++
 **CyIntl（发音为 "Sigh-Intl"）** 是一家深耕教育、科技、商业与终端营销的综合性咨询平台。我们相信**时间与复利**的力量，致力于为个人及机构整合核心资源、发掘潜在增长，并驱动产业的现代化转型，共同重塑未来蓝图。
 

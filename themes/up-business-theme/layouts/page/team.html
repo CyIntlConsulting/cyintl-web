@@ -1,6 +1,4 @@
 {{ define "main" }}
-
-{{/* Get the correct data based on current page language */}}
 {{ $data := index .Site.Data .Lang }}
 {{ $teamData := $data.team.persona }}
 <section class="section blog-single py-5">
