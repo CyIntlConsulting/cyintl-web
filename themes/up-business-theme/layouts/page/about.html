@@ -1,16 +1,81 @@
+
 {{ define "main" }}
 {{ $data := index .Site.Data .Lang }}
 {{ $aboutData := $data.about.about }}
-<section class="section blog-single py-5">
+
+<section class="section about-hero py-3">
 	<div class="container">
-		<div class="row justify-content-center pb-5">
-			<div class="col-12">
-				{{ with .Title }}
-					<h2 class="display-1 fw-bold text-center text-primary pb-3">{{ . }}</h2>
-				{{ end }}
-				{{ with $aboutData.summary }}
-					<p class="text-left text-secondary pb-3">{{ . }}</p>
-				{{ end }}
+		<div class="row justify-content-center pb-3">
+			<div class="col-md-8">
+				<h2 class="display-1 fw-bold text-center text-primary pb-3">{{ $aboutData.title }}</h2>
+				{{ $summaryLines := split $aboutData.summary "\n" }}
+				<blockquote class="blockquote">
+				  {{ range $summaryLines }}
+					<p>{{ . }}</p>
+				  {{ end }}
+				</blockquote>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section about-vision py-3">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-8">
+				<h3 class="fw-bold text-primary">{{ $aboutData.vision_title }}</h3>
+				<p>{{ $aboutData.vision }}</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section about-timeline py-3">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-8">
+				<h3 class="fw-bold text-primary">{{ $aboutData.milestones_title }}</h3>
+				<ul class="timeline list-unstyled mt-4">
+				  {{ range $aboutData.milestones }}
+					<li class="mb-3">
+					  <span class="fw-bold text-primary">{{ .period }}: {{ .event }}</span><br>
+					  <span>{{ .detail }}</span>
+					</li>
+				  {{ end }}
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section about-services py-3">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-8">
+				<h3 class="fw-bold text-primary">{{ $aboutData.services_title }}</h3>
+				<div class="row">
+					{{ range $aboutData.services }}
+						<div class="col-md-6 mb-3">
+							<div class="card h-100 border-0 shadow-sm">
+								<div class="card-body">
+									<h5 class="card-title text-primary">{{ .name }}</h5>
+									<p>{{ .desc }}</p>
+								</div>
+							</div>
+						</div>
+					{{ end }}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section about-contact py-3">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-8">
+				<h3 class="fw-bold text-primary">{{ $aboutData.joinus_title }}</h3>
+				<p>{{ $aboutData.joinus.text }}</p>
 			</div>
 		</div>
 	</div>
