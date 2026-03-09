@@ -17,7 +17,7 @@ members:
   - name: "Sylvie"
     role: "教育领域专家"
     bio: "Sylvie 兼任高校国际事务处处长和区域国际教育项目主管30多年，深耕国际教育，精通全流程管理，长期担任区域国际教育专家，主导和指导过中方与英国, 加拿大, 澳大利亚、新西兰、爱尔兰、西班牙、韩国、马来西亚等多国名校合作办学项目的立项、运营和评估，策划过多语种培训与留学项目，熟悉相关业务政策，具备深厚的国际教育资源整合能力。"
-    image: "/images/team/cleo.jpg"
+    image: "/images/team/sylvie.jpg"
     education:
       - degree: "MM. in Management"
       - degree: "BASc. in Engineering Management"
@@ -26,14 +26,14 @@ members:
   - name: "Mitchell"
     role: "数据科学家"
     bio: "Mitchell拥有10+年数据处理与分析经验，现任职于FAANG+公司的数据科学家, 曾参与和主导多个业内量级、一线项目并投入使用。对他而言，数据不仅是工作，更是一种生活方式。他擅长将数据融入产品或服务，助力他人做出理性决策。"
-    image: "/images/team/cleo.jpg"
+    image: "/images/team/mitchell.jpg"
     education:
       - degree: "MSc. in High Performance Computing with Data Science"
-      - degree: "BASc. in Materials Engineering"
+      - degree: "BASc. in Chemical Engineering"
 
   - name: "Catherine"
     role: "营销策略师"
     bio: "Cathy 专注于品牌增长与跨文化传播，活跃于北美市场，统筹中英文社交媒体矩阵与整合营销项目。她连接品牌定位、内容叙事与商业转化，在多平台战略运营与活动策划中推动持续增长。"
-    image: "/images/team/cleo.jpg"
+    image: "/images/team/cathy.jpg"
     education:
-      - degree: "BA. in Economics, Minor in Commerce"
+      - degree: "BA. in Economy, minor in Commerce"

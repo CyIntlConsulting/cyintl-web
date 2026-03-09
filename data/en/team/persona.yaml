@@ -17,7 +17,7 @@ members:
   - name: "Sylvie"
     role: "Education Expert"
     bio: "Sylvie has served as Regional Director of International Education Programs for over 30 years. She has led and guided the establishment, operation, and evaluation of cooperative programs between Chinese institutions and prestigious universities in the UK, Canada, Australia, New Zealand, Ireland, Spain, South Korea, Malaysia, and so on. She has planned multilingual training and study abroad programs, possesses deep familiarity with relevant policies, and demonstrates strong capabilities in integrating international education resources."
-    image: "/images/team/cleo.jpg"
+    image: "/images/team/sylvie.jpg"
     education:
       - degree: "MM. in Management"
       - degree: "BASc. in Engineering Management"
@@ -26,14 +26,14 @@ members:
   - name: "Mitchell"
     role: "Data Scientist"
     bio: "Mitchell possesses over 10 years of experience in data processing and analysis. Currently serving as a data scientist at a FAANG+ company, he has participated in and led multiple industry-scale, frontline projects that have been successfully deployed. For him, data is not merely a job—it's a way of life. He excels at integrating data into products or services, empowering others to make rational decisions."
-    image: "/images/team/cleo.jpg"
+    image: "/images/team/mitchell.jpg"
     education:
       - degree: "MSc. in High Performance Computing with Data Science"
-      - degree: "BASc. in Materials Engineering"
+      - degree: "BASc. in Chemical Engineering"
 
   - name: "Catherine"
     role: "Marketing Specialist"
     bio: "Cathy specializes in brand growth and cross-cultural communication, actively serving the North American market. She oversees integrated marketing projects and Chinese-English social media ecosystems. By connecting brand positioning, content storytelling, and commercial conversion, she drives sustained growth through multi-platform strategic operations and campaign planning. "
-    image: "/images/team/cleo.jpg"
+    image: "/images/team/cathy.jpg"
     education:
-      - degree: "BA. in Economy"
+      - degree: "BA. in Economy, minor in Commerce"
