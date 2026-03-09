@@ -18,7 +18,7 @@ languages:
     menu:
       main:
         - name: "Home"
-          url: "/"
+          url: "/en/"
           weight: 1
         - name: "Solutions"
           url: "/en/solutions"
@@ -248,7 +248,7 @@ languages:
     menu:
       main:
         - name: "首页"
-          url: "/"
+          url: "/zh/"
           weight: 1
 
         - name: "解决方案"

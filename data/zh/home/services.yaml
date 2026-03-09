@@ -8,20 +8,14 @@ content:
     - image: "images/icons/user-solid-full.svg"
       title: "个人"
       text: "我们为个人客户提供高端定制服务。欢迎联系我们进行深入探讨，我们将根据您的需求评估具体情况。"
-      button:
-        label: "了解更多"
-        url: "#"
+
 
     - image: "images/icons/people-group-solid-full.svg"
       title: "机构"
       text: "我们协助民办或公共机构整合资源以开拓新的盈利点，帮助促进与其他组织建立长期合作关系, 以实现共赢。"
-      button:
-        label: "了解更多"
-        url: "#"
+
 
     - image: "images/icons/sitemap-solid-full.svg"
       title: "组合类型"
       text: "无论您是组织还是个人，我们都能助您综合评估并整合多元资源，实现利益最大化。"
-      button:
-        label: "了解更多"
-        url: "#"
+

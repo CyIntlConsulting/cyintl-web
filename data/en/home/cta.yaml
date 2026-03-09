@@ -3,7 +3,3 @@ id: "cta"
 
 content:
   title: "Contact us now!"
-  # image: "images/services-web-development.png"
-  button:
-    label: "Let's talk"
-    url: "#"

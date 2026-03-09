@@ -2,8 +2,4 @@ enabled: true
 id: "cta"
 
 content:
-  title: "联系我们!"
-  # image: "images/services-web-development.png"
-  button:
-    label: "Let's talk"
-    url: "#"
+  title: "联系我们"
