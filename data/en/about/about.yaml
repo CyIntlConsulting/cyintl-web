@@ -6,43 +6,47 @@ aliases:
 author: "Cleo"
 summary: |
   CyIntl is a comprehensive consulting platform specializing in business, technology, education and marketing. We believe in long-termism, integrating global resources and unlocking growth potential. By identifying the development logic behind the scene, we look forward to reshaping the future together with our clients.
-  Founded in Vancouver, Canada in 2021, CyIntl is rooted in North America and focused on the Asia-Pacific area, with a global reach. We are steadily advancing along a promising journey.
+  Founded in Vancouver, BC Canada in 2021, CyIntl is rooted in North America and focused on the Asia-Pacific area, with a global reach. We are steadily advancing along a promising journey.
 
 vision_title: "Vision"
-vision: "At CyIntl, we aim to optimize the allocation efficiency of resources, striving for the ultimate ideal: every person finds their place, every resource is put to good use, and each finds their rightful positions."
+vision: "At CyIntl, we aim to optimize the resource allocation, striving for the ultimate ideal: every person finds their place, every resource is put to good use, and each finds their positions."
 
 milestones_title: "Milestones"
 milestones:
   - period: "2026 - Present"
     event: "Compounding Growth, Shared Future"
-    detail: "Through continuous integration of end-to-end resources, we empower partners to achieve predictable and substantial growth in their businesses."
+    detail: "Through continuous integration of end-to-end resources, we empower partners to achieve predictable growth in their businesses."
   - period: "2025"
     event: "From North America to Pacific Rim"
-    detail: "Further expanding our international footprint, our operations now extend from Canada's West Coast to the Pacific Rim region, launching a new chapter in our global service offerings."
+    detail: "Further expanding our footprint, our operations now extend from North America's West Coast to the Pacific Rim, launching a new chapter in our global service offerings."
   - period: "2024"
     event: "Building the Full Business Chain"
-    detail: "Further integrate end-to-end commercial resources, including terminal marketing, expand specialised teams, and gradually establish a comprehensive service ecosystem spanning education, technology, and business."
+    detail: "Further integrate end-to-end commercial resources, including terminal marketing, expand specialised teams, and gradually establish a comprehensive service ecosystem spanning business, technology, education, and Marketing."
   - period: "2023"
     event: "Expansion into Education & Talent Planning"
-    detail: "Incorporate the education sector into the strategic development blueprint and secure endorsements from frontline professionals in this field. Explore the potential for knowledge-driven empowerment through participation in project design, international exchanges, and collaborative educational initiatives."
+    detail: "Incorporate the education sector into our blueprint and secure endorsements from frontline professionals in this field. Explore the potential for knowledge-driven empowerment through international cooperations, exchange program designs, and collaborative educational initiatives."
   - period: "2022"
     event: "Focusing on technology consulting"
-    detail: "Empowering small and medium-sized local enterprises, we have established a solid foundation for our brand by focusing on technical consulting services and deeply cultivating the local Vancouver market."
+    detail: "Empowering small and medium-sized local enterprises, we have established a solid foundation for our brand by cultivating the local Vancouver market."
   - period: "2021"
     event: "Starting Point, Rooted in Vancouver"
     detail: "CyIntl was founded in Yaletown Vancouver, Canada."
 
 services_title: "Core Services"
 services:
-  - name: "Education Consulting"
-    desc: "Comprehensive services for institutions and individuals, including program design, international exchange, and academic planning."
-  - name: "Technology Innovation"
-    desc: "Driving digital transformation and helping enterprises achieve technological upgrades and innovative development."
   - name: "Business Strategy"
     desc: "Provide enterprises with data-driven market analysis, strategic planning, and operational optimization services."
+    url: "/en/solutions/#business"
+  - name: "Education Consulting"
+    desc: "Comprehensive services for institutions and individuals, including cooperative program design, international exchange, and academic planning."
+    url: "/en/solutions/#education"
+  - name: "Technology Innovation"
+    desc: "Driving digital transformation and helping enterprises achieve technological upgrades and innovative development."
+    url: "/en/solutions/#technology"
   - name: "Marketing Solutions"
     desc: "Integrate online and offline resources to enhance brand influence and market competitiveness through a multi-channel approach."
+    url: "/en/solutions/#marketing"
 
 joinus_title: "Join Us"
 joinus:
-  text: "We welcome partners and talents passionate about education, technology, and business innovation to join CyIntl. Please send your resume or partnership proposal to info@cyintl.org. Let’s grow and create the future together."
+  text: "We welcome partners and talents passionate about business, technology, education, and marketing to join CyIntl. Please send your resume or partnership proposal to info@cyintl.org. Let’s grow and create the future together."
