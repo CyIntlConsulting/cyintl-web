@@ -223,14 +223,10 @@ languages:
         - name: "About"
           url: "/en/about"
           weight: 4
-      buttons:
-        - name: "Book an appointment"
-          url: "https://calendly.com/cyintl"
-          weight: 6
-          pre: "btn btn-primary text-light"
         - name: "About"
           url: "/en/about"
           weight: 4
+    
       buttons:
         - name: "Book an appointment"
           url: "https://calendly.com/cyintl"
@@ -454,6 +450,7 @@ languages:
         - name: "关于"
           url: "/zh/about"
           weight: 4
+     
       buttons:
         - name: "预约咨询"
           url: "https://calendly.com/cyintl"
