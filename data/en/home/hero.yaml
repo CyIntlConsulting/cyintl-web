@@ -7,9 +7,9 @@ content:
 
   buttonPrimary:
     label: "Find solutions"
-    url: "/solutions"
+    url: "/en/solutions"
 
   buttonSecondary:
     label: "Let's talk"
-    url: "https://calendly.com/cyintl"
+    url: "/en/#contactus"
 

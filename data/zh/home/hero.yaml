@@ -11,5 +11,5 @@ content:
 
   buttonSecondary:
     label: "联系我们"
-    url: "https://calendly.com/cyintl"
+    url: "/zh/#contactus"
 

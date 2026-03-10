@@ -477,13 +477,14 @@ params:
   social:
     linkedin: "https://www.linkedin.com/company/cyintl-consulting/"
     instagram: "https://instagram.com/cyintlconsulting?igshid=OGQ5ZDc2ODk2ZA=="
-    wechat: "CyIntlConsulting"
+    youtube: "https://www.youtube.com/@CyIntlConsulting"
+    rednote: "https://www.youtube.com/@CyIntlConsulting"
 
   industries:
     - Business
     - Education
     - Technology
-    - Maketing
+    - Marketing
 
   location:
     - "Vancouver, BC V6B 0B1, Canada"
@@ -492,7 +493,6 @@ params:
 
   contact:
     - "admin@cyintl.org"
-    - "+1 206-601-0517"
 
   copyright: "© 2026 CyIntl Consulting Corp. All Rights Reserved."
 
