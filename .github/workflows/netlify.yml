@@ -17,8 +17,8 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
-          extended: true         # Set to true if using SCSS/Sass or modern themes
+          hugo-version: '0.119.0' # Use this specific version
+          extended: true
 
       - name: Build Hugo Site
         run: hugo --gc --minify --baseURL "https://www.cyintl.org/" # Ensure this matches your config.yaml baseURL
