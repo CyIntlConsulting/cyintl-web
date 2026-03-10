@@ -1,0 +1,37 @@
+name: Deploy Hugo to Netlify
+on:
+  push:
+    branches:
+      - main  # or 'master' depending on your repo
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive  # Crucial if your Hugo theme is a git submodule
+          fetch-depth: 0         # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true         # Set to true if using SCSS/Sass or modern themes
+
+      - name: Build Hugo Site
+        run: hugo --gc --minify --baseURL "https://www.cyintl.org/" # Ensure this matches your config.yaml baseURL
+
+      - name: Deploy to Netlify
+        uses: nwtgck/actions-netlify@v3.0
+        with:
+          publish-dir: './public' # Hugo's default output directory
+          production-deploy: true
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          deploy-message: "Hugo Build - ${{ github.event.head_commit.message }}"
+          enable-pull-request-comment: true
+          enable-commit-comment: true
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
