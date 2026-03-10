@@ -228,7 +228,6 @@ languages:
           url: "https://calendly.com/cyintl"
           weight: 6
           pre: "btn btn-primary text-light"
-          weight: 5
         - name: "About"
           url: "/en/about"
           weight: 4
