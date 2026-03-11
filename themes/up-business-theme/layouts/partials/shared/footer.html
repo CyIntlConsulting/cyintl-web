@@ -11,7 +11,7 @@
           {{ with .linkedin }}<li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16" target="_blank" href="{{ . }}">{{ partial "icons/linkedin.html" }}</a></li>{{ end }}
           {{ with .youtube }}<li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16" target="_blank" href="{{ . }}">{{ partial "icons/youtube.html" }}</a></li>{{ end }}
           {{ with .instagram }}<li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16" target="_blank" href="{{ . }}">{{ partial "icons/instagram.html" }}</a></li>{{ end }}
-          {{ with .rednote }}<li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16" target="_blank" href="{{ . }}">{{ partial "icons/rednote.html" }}</a></li>{{ end }}
+          <!-- {{ with .rednote }}<li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16" target="_blank" href="{{ . }}">{{ partial "icons/rednote.html" }}</a></li>{{ end }} -->
         </ul>
         {{ end }}
       </div>
@@ -58,11 +58,7 @@
         {{ range .Site.Params.contact }}
           <li class="d-flex justify-content-center justify-content-xl-start align-items-center mb-2">
             <div class="d-flex align-items-center text-primary">
-              {{ if (strings.Contains . "@") }}
                 {{ partial "icons/envelope.html" . }}
-              {{ else }}
-                {{ partial "icons/phone.html" . }}
-              {{ end }}
             </div>
             <p class="small text-black-61 m-0 ps-2">{{ . }}</p>
           </li>

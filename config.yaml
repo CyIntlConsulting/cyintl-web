@@ -474,7 +474,7 @@ params:
     linkedin: "https://www.linkedin.com/company/cyintl-consulting/"
     instagram: "https://instagram.com/cyintlconsulting?igshid=OGQ5ZDc2ODk2ZA=="
     youtube: "https://www.youtube.com/@CyIntlConsulting"
-    rednote: "https://www.youtube.com/@CyIntlConsulting"
+    # rednote: "https://www.youtube.com/@CyIntlConsulting"
 
   industries:
     - Business
