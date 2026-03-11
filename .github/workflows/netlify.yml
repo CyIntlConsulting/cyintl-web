@@ -21,7 +21,7 @@ jobs:
           extended: true
 
       - name: Build Hugo Site
-        run: hugo --gc --minify --baseURL "https://cyintlwebsite.netlify.app/" # Ensure this matches your config.yaml baseURL
+        run: hugo --gc --minify --baseURL "https://www.cyintl.org/" # Ensure this matches your config.yaml baseURL
 
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v3.0

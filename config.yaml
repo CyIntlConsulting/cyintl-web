@@ -1,4 +1,4 @@
-baseURL: "https://cyintlwebsite.netlify.app/"
+baseURL: "https://www.cyintl.org/"
 theme: "up-business-theme"
 defaultContentLanguage: "en" # Simplified to 'en' to match the language key
 defaultContentLanguageInSubdir: true # Essential for clear /en/ and /zh/ routing
